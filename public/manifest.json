@@ -1,0 +1,15 @@
+{
+  "name": "騎乘技巧的理論分析",
+  "short_name": "騎乘技巧的理論分析",
+  "start_url": "/blog/",
+  "scope": "/blog/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/blog/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
