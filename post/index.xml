@@ -6,23 +6,19 @@
     <description>Recent content in Posts on 騎乘技巧的理論分析</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Apr 2022 15:18:29 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test</title>
-      <link>https://jrphy.github.io/blog/post/test/</link>
-      <pubDate>Fri, 29 Apr 2022 15:18:29 +0800</pubDate>
-      
-      <guid>https://jrphy.github.io/blog/post/test/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 29 Apr 2022 15:14:42 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>標準化功率的數學及其意義</title>
-      <link>https://jrphy.github.io/blog/post/%E6%A8%99%E6%BA%96%E5%8C%96%E5%8A%9F%E7%8E%87%E7%9A%84%E6%95%B8%E5%AD%B8%E5%8F%8A%E5%85%B6%E6%84%8F%E7%BE%A9/</link>
+      <link>https://jrphy.github.io/blog/post/np_and_its_meaning/</link>
       <pubDate>Fri, 29 Apr 2022 15:14:42 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/%E6%A8%99%E6%BA%96%E5%8C%96%E5%8A%9F%E7%8E%87%E7%9A%84%E6%95%B8%E5%AD%B8%E5%8F%8A%E5%85%B6%E6%84%8F%E7%BE%A9/</guid>
-      <description></description>
+      <guid>https://jrphy.github.io/blog/post/np_and_its_meaning/</guid>
+      <description>在做訓練時我們會預期這次訓練的量，而訓練的量即為此次運動的強度乘上時間。強度在自行車的世界有功率的話都以功率為優先 ，並會以其他數據為輔。然而強度則會根據每個人能力不同制定客製化訓練，所以會採用相對標準 。而自行車在騎乘時功率變化很大，所以會採用加權平均 的方式會比算術平均還更能反映真實期程情況，但是平均功率也是能看到如做功資訊，在騎乘時對於補給策略來說很重要。
+　自行車功率訓練自從 SRM 開發了第一個移動式功率計後，現在要練車的人幾乎都備有功率計，最重要的就是在騎乘完後的數據分析。現在也有許多的軟體會自動幫你計算，但若是剛開始入門會覺得眼花撩亂，如這圖一所示，這邊就先從標準化功率介紹。
+        圖一：使用功率計後軟體會多出 NP, IF, VI, TSS, WORK 等資訊    　一次訓練週期中課程不會只有一種，在這邊就拿兩種不一樣的課程來看，一個是接近 HIIT 如圖二，另一個則是穩定騎乘如圖三，有騎過這兩種課程的人都知道，若這兩次騎乘的平均瓦數與時間相同，一定是左圖的課程比較累，所以在訓練量的計算上若是使用平均功率，就不能反應這種情況。
+        圖二：IIT 課程            圖三：穩定騎乘課程    　為了反應這種情況，Coggan博士設計了另外一種計算方式，並將其命名為Normalized power，這邊我就翻成標準化功率，計算步驟如下：
+  計算30秒的移動平均值，例如第1~30秒算出一個值100，第2~31秒算出一個值101……以此類推 將第一步驟算出來的每個數值四次方，例如1~30秒算出的值為100，那就將100乘四次 把每個平均值四次方後取算術平均 最後開四次方跟即為所求   上面看起來好像很複雜，其實用數學符號化簡就只有一條式子如圖四。這種平均在數學上有名字，叫做冪平均，而我們想要的結果就是冪平均要大於算術平均，在數學上也剛好有冪平均不等式的結果，符合我們的期待，所以一次運動中，標準化功率的數值必定是大於等於平均功率。
+        圖四：標準化功率的計算方式及與平均功率的關係    　但是若有使用碼表計圈功能就會發現，在某些情況下標準化功率會小於平均功率。像圖五即為我的某次騎乘，其中有兩段小於30秒的計圈，就會發現這兩次計圈是小於平均功率的。但是計算平均功率又需要至少30秒的功率，那這是怎麼算的呢？前一頁提到計算標準化功率的第一步是先算30秒的平均功率，所以會將計圈前30秒的功率算進去，如果前30秒功率很低，那就會拉低標準化功率的值，也因為要先計算那30秒的平均，所以整體的反應會落後於瞬間功率。</description>
     </item>
     
   </channel>

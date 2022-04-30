@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>標準化功率的數學及其意義 // 騎乘技巧的理論分析</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="CycleFormula" />
+    <meta name="description" content="說明標準化功率如何計算跟計算結果的性質" />
+    <link rel="stylesheet" href="https://jrphy.github.io/blog/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="標準化功率的數學及其意義"/>
+<meta name="twitter:description" content="說明標準化功率如何計算跟計算結果的性質"/>
+
+    <meta property="og:title" content="標準化功率的數學及其意義" />
+<meta property="og:description" content="說明標準化功率如何計算跟計算結果的性質" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jrphy.github.io/blog/post/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-04-29T15:14:42+08:00" />
+<meta property="article:modified_time" content="2022-04-29T15:14:42+08:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrphy.github.io/blog/"><img class="app-header-avatar" src="/blog/avatar.jpg" alt="CycleFormula" /></a>
+      <h1>騎乘技巧的理論分析</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/blog/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/about/">About</a>
+      </nav>
+      <p>用理論計算來分析單車運動</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.facebook.com/CycleFormula" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-facebook">
+  <title>Facebook</title>
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.youtube.com/channel/UCei7UffxFMaYKRgmO-GsMRQ" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-youtube">
+  <title>Youtube</title>
+  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">標準化功率的數學及其意義</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 29, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E6%A8%99%E6%BA%96%E5%8C%96%E5%8A%9F%E7%8E%87/">標準化功率</a>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E5%8A%9F%E7%8E%87%E8%A8%93%E7%B7%B4/">功率訓練</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>　　在做訓練時我們會預期這次訓練的量，而訓練的量即為此次運動的強度乘上時間。強度在自行車的世界有功率的話都以<!-- raw HTML omitted --> <strong>功率為優先</strong> <!-- raw HTML omitted -->，並會以其他數據為輔。然而強度則會根據每個人能力不同制定客製化訓練，所以會採用<!-- raw HTML omitted --> <strong>相對標準</strong> <!-- raw HTML omitted -->。而自行車在騎乘時功率變化很大，所以會採用<!-- raw HTML omitted --> <strong>加權平均</strong> <!-- raw HTML omitted -->的方式會比算術平均還更能反映真實期程情況，但是平均功率也是能看到如做功資訊，在騎乘時對於補給策略來說很重要。</p>
+<p>　　自行車功率訓練自從 SRM 開發了第一個移動式功率計後，現在要練車的人幾乎都備有功率計，最重要的就是在騎乘完後的數據分析。現在也有許多的軟體會自動幫你計算，但若是剛開始入門會覺得眼花撩亂，如這圖一所示，這邊就先從標準化功率介紹。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="SW_result.jpg" alt="圖一"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖一：使用功率計後軟體會多出 NP, IF, VI, TSS, WORK 等資訊</td>
+</tr>
+</tbody>
+</table>
+<p>　　一次訓練週期中課程不會只有一種，在這邊就拿兩種不一樣的課程來看，一個是接近 HIIT 如圖二，另一個則是穩定騎乘如圖三，有騎過這兩種課程的人都知道，若這兩次騎乘的平均瓦數與時間相同，一定是左圖的課程比較累，所以在訓練量的計算上若是使用平均功率，就不能反應這種情況。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="IIT.jpg" alt="圖二"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖二：IIT 課程</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="steady.jpg" alt="圖三"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖三：穩定騎乘課程</td>
+</tr>
+</tbody>
+</table>
+<p>　　為了反應這種情況，Coggan博士設計了另外一種計算方式，並將其命名為Normalized power，這邊我就翻成標準化功率，計算步驟如下：</p>
+<blockquote>
+<ol>
+<li>計算30秒的移動平均值，例如第1~30秒算出一個值100，第2~31秒算出一個值101……以此類推</li>
+<li>將第一步驟算出來的每個數值四次方，例如1~30秒算出的值為100，那就將100乘四次</li>
+<li>把每個平均值四次方後取算術平均</li>
+<li>最後開四次方跟即為所求</li>
+</ol>
+</blockquote>
+<p>上面看起來好像很複雜，其實用數學符號化簡就只有一條式子如圖四。這種平均在數學上有名字，叫做冪平均，而我們想要的結果就是冪平均要大於算術平均，在數學上也剛好有冪平均不等式的結果，符合我們的期待，所以一次運動中，標準化功率的數值必定是大於等於平均功率。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="NP.jpg" alt="圖四"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖四：標準化功率的計算方式及與平均功率的關係</td>
+</tr>
+</tbody>
+</table>
+<p>　　但是若有使用碼表計圈功能就會發現，在某些情況下標準化功率會小於平均功率。像圖五即為我的某次騎乘，其中有兩段小於30秒的計圈，就會發現這兩次計圈是小於平均功率的。但是計算平均功率又需要至少30秒的功率，那這是怎麼算的呢？前一頁提到計算標準化功率的第一步是先算30秒的平均功率，所以會將計圈前30秒的功率算進去，如果前30秒功率很低，那就會拉低標準化功率的值，也因為要先計算那30秒的平均，所以整體的反應會落後於瞬間功率。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="laps.jpg" alt="圖五"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖五：計圈的標準化功率與平均功率</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="seg.jpg" alt="圖六"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖六：計圈的瞬時功率與和前 30 秒的平均功率</td>
+</tr>
+</tbody>
+</table>
+<p>　　而在實際騎乘時可能會因為衝刺或休息，造成瞬時功率突然有一個峰值或是0，我們可以來看一下當下的標準化功率會如何變化。如果只有短時間的衝刺或停腳，因為標準化功率會先算30秒平均，所以反而會將這些離群值拉得更靠近平均，也就是會先過濾一次這種突然出現的峰值，並非捨棄不算。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="full.jpg" alt="圖七"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖七：一次騎乘時的瞬時功率與標準化功率</td>
+</tr>
+</tbody>
+</table>
+<p>所以通常在儀器上，這個時都需要超過30秒才會顯示，而且對於一次運動而言，標準化功率 ≥ 平均功率，但若一次運動中有分段計算則不一定，所以在短間歇會有落後於瞬間功率的情況，所以在短間歇就不用太在意標準化功率。也因為做了30秒的平均，有一些離群值會被平均掉，但並不代表這些離群值不會做計算，還是會造成標準化功率提升或下降。這邊我們介紹了標準化功率比平均功率好在哪，也說明了標準化功率的計算方式和它的性質。若是大家有想要了解的部分或是想要多看其他數據的資料，也可以在影片下方或是粉絲專頁留言，有時間且做的到的就會有回覆</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
