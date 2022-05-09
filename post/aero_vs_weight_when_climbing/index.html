@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>爬坡時重力與空力效應的比較 // 騎乘技巧的理論分析</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="CycleFormula" />
+    <meta name="description" content="比較重量與空力在爬坡時的功率比例" />
+    <link rel="stylesheet" href="https://jrphy.github.io/blog/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="爬坡時重力與空力效應的比較"/>
+<meta name="twitter:description" content="比較重量與空力在爬坡時的功率比例"/>
+
+    <meta property="og:title" content="爬坡時重力與空力效應的比較" />
+<meta property="og:description" content="比較重量與空力在爬坡時的功率比例" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-01T16:19:19+08:00" />
+<meta property="article:modified_time" content="2022-05-01T16:19:19+08:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrphy.github.io/blog/"><img class="app-header-avatar" src="/blog/avatar.jpg" alt="CycleFormula" /></a>
+      <h1>騎乘技巧的理論分析</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/blog/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/about/">About</a>
+      </nav>
+      <p>用理論計算來分析單車運動</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.facebook.com/CycleFormula" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-facebook">
+  <title>Facebook</title>
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.youtube.com/channel/UCei7UffxFMaYKRgmO-GsMRQ" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-youtube">
+  <title>Youtube</title>
+  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">爬坡時重力與空力效應的比較</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 1, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E7%88%AC%E5%9D%A1/">爬坡</a>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E9%87%8D%E9%87%8F/">重量</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>　　空氣力學對於自行車來說，速度越快阻力就越大。而重力則是在坡度越陡時影響越大。那麼這兩個效應到底在什麼情況下，誰的影響比較大呢？
+　　在此我們會有一些假設，這些假設並不會對計算結果造成太大的誤差，如過程中<!-- raw HTML omitted -->總重量、重力加速度和摩擦係數為定值<!-- raw HTML omitted -->。另外也有限制我們的計算情境如下</p>
+<ol>
+<li>全程只有一個人獨騎</li>
+<li>過程中不落地</li>
+<li>無風的晴天</li>
+<li>僅使用平均坡度計算</li>
+<li>功率可以穩定輸出</li>
+</ol>
+<p>　　所以根據假設，把剩下沒考慮到的叫做 <em>F<!-- raw HTML omitted -->others<!-- raw HTML omitted --></em>。所以當人施力的時候會受到這四個力個抵抗，若是當下的速率為 <em>v</em>，那麼我們將個別的力算出來再乘上速率，就可以得到每個力所消耗的功率。在此我們將重力與空氣阻力所產生的功率加起來放在分母，然後分子分別放上重力與空氣阻力的功率，就分別得到 <em>P<!-- raw HTML omitted -->a<!-- raw HTML omitted --></em> 與 <em>P<!-- raw HTML omitted -->g<!-- raw HTML omitted --></em> ，代表的是分別是空氣阻力和重力分別佔這兩個的比重多少，且兩個和為 1，所以若其中一個大於0.5，則表示該效應較大。例如在平地就不會有重力作用，所以 <em>P<!-- raw HTML omitted -->a<!-- raw HTML omitted --></em> = 1，<em>P<!-- raw HTML omitted -->g<!-- raw HTML omitted --></em> = 0，所以空氣阻力的效應比較大。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="method.png" alt="圖一"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖一：比較方法</td>
+</tr>
+</tbody>
+</table>
+<p>此為這篇文章比較方法，若有其他比較辦法也可以利用此方程式自行做計算比較。在我還沒深入去想這問題時，我直覺是空氣阻力產生的功率是速率的三次方，那應該大部分的情況是空力影響較大吧？</p>
+<p>　　但是在<a href="https://www.books.com.tw/products/F013904033">單車科學</a>這本書上，如果是300瓦的情況，那在坡度2%時兩者影響力差不多，我當時還滿驚訝的，因為坡度2%並不是很陡的坡，另外這張圖還有重量與風阻面積沒考慮比較，且對一般人來說300瓦太難達成了，那麼模型建立後我們就可以來驗證這件事情。</p>
+<p>　　在此我們先改變瓦數，看看瓦數降低，兩者影響會如何改變。綠色為空力效應，黃色為重力效應，橫軸為一路段中僅有爬坡的平均坡度，縱軸為百分比，total weight 為人+車+裝備重。在此的總重量假設為 79 公斤，風阻面積假設是 0.28，而可看到當瓦數降低，空氣阻力的影響也降低，原因是因為瓦數低速率就慢，所以空力效應會降得比較快，若平均瓦數為 200 瓦如圖三，則當平均坡度為 1.5% 時空力效應就已經低於重力影響了。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="Figure_1.png" alt="圖二"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖二</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="Figure_3.png" alt="圖三"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖三</td>
+</tr>
+</tbody>
+</table>
+<p>　　接著來看風阻面積改變時兩者的影響力，在此的總重量假設為 69 公斤，均瓦是 200，風阻面積從 0.35 降到 0.28，大概就是比較挺的騎姿到比較趴的騎姿，可以看到若都只有 200 瓦，那降低風阻面積對於結果差異不大。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="Figure_1.png" alt="圖二"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖二</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="Figure_2.png" alt="圖五"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖四</td>
+</tr>
+</tbody>
+</table>
+<p>而當重量從 69 到 79 時，重量效應就會增加。但整體而言改變非瓦數的其他數值，對於兩者的效應消長變化沒那麼大。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="Figure_3.png" alt="圖三"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖三</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="Figure_4.png" alt="圖六"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖六</td>
+</tr>
+</tbody>
+</table>
+<p>　　所以單純以爬坡路段來講，體重 70 公斤的車手，約在平均坡度 1.5%(200 W) ~ 2%(300 W) 的區間，重力效應就會超過空力效應。所以像台灣一些經典登山賽如西進武嶺道人止關前，塔塔加到同富國小 7-11 前的這些路段，或者是可以看一下比賽中的爬坡路段，坡度少於 2 %可以盡量跟，高於2%就可以考慮自己騎。但是出去騎乘或比賽，很少有純爬坡的路段，所以之後會考慮有平路與下坡的丘陵地形。</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

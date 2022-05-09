@@ -6,7 +6,33 @@
     <description>Recent content on 騎乘技巧的理論分析</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Apr 2022 15:14:42 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 22:00:03 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重量減輕爬坡可以快多少</title>
+      <link>https://jrphy.github.io/blog/post/how_much_time_can_be_save_as_getting_lighter/</link>
+      <pubDate>Mon, 09 May 2022 22:00:03 +0800</pubDate>
+      
+      <guid>https://jrphy.github.io/blog/post/how_much_time_can_be_save_as_getting_lighter/</guid>
+      <description>大家都知道重量越輕爬坡越快，那麼輕多少到底可以快多少，這篇文章就算給你看。這邊先從公路車的力學模型出發，然後解此方程式來得到相同瓦數下，不同重量下的時間會有什麼改變。
+那麼我們先來看一下我們的模型，其數學形式就是這樣，第一項是重力作用，第二項是摩擦力作用，第三項是空氣阻力作用，第四項是加速項。然後還有一些沒考慮到的，所以用此方程式來預估功率通常會稍微低估。
+Ptotal = (Wsinx + $\mu$ Wcosx + $\rho$ CdA( v + vw) 2/ 2 ) v + ( m + I / r 2 )(vf 2– vi 2) /2
+   符號 質量 m 重力加速度 g 速率 v 摩擦係數 $\mu$     單位 kg m/s2 m/s 無單位       符號 重量 W 氣體密度 $\rho$ 風阻面積 CdA 風速 vw     單位 N kg/m3 m2 m/s    　那麼現在就要用這條方程式來解所需時間，同樣的真實情況其實是很複雜的，所以會先固定一些情況，跟限制計算的情境。我們的假設如下，在整個過程中質量保持不變。雖然說過程中會喝水及吃補給之類的，但是因為都尚未排出來。</description>
+    </item>
+    
+    <item>
+      <title>爬坡時重力與空力效應的比較</title>
+      <link>https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/</link>
+      <pubDate>Sun, 01 May 2022 16:19:19 +0800</pubDate>
+      
+      <guid>https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/</guid>
+      <description>空氣力學對於自行車來說，速度越快阻力就越大。而重力則是在坡度越陡時影響越大。那麼這兩個效應到底在什麼情況下，誰的影響比較大呢？ 在此我們會有一些假設，這些假設並不會對計算結果造成太大的誤差，如過程中總重量、重力加速度和摩擦係數為定值。另外也有限制我們的計算情境如下
+ 全程只有一個人獨騎 過程中不落地 無風的晴天 僅使用平均坡度計算 功率可以穩定輸出  　所以根據假設，把剩下沒考慮到的叫做 Fothers。所以當人施力的時候會受到這四個力個抵抗，若是當下的速率為 v，那麼我們將個別的力算出來再乘上速率，就可以得到每個力所消耗的功率。在此我們將重力與空氣阻力所產生的功率加起來放在分母，然後分子分別放上重力與空氣阻力的功率，就分別得到 Pa 與 Pg ，代表的是分別是空氣阻力和重力分別佔這兩個的比重多少，且兩個和為 1，所以若其中一個大於0.5，則表示該效應較大。例如在平地就不會有重力作用，所以 Pa = 1，Pg = 0，所以空氣阻力的效應比較大。
+        圖一：比較方法    此為這篇文章比較方法，若有其他比較辦法也可以利用此方程式自行做計算比較。在我還沒深入去想這問題時，我直覺是空氣阻力產生的功率是速率的三次方，那應該大部分的情況是空力影響較大吧？
+　但是在單車科學這本書上，如果是300瓦的情況，那在坡度2%時兩者影響力差不多，我當時還滿驚訝的，因為坡度2%並不是很陡的坡，另外這張圖還有重量與風阻面積沒考慮比較，且對一般人來說300瓦太難達成了，那麼模型建立後我們就可以來驗證這件事情。
+　在此我們先改變瓦數，看看瓦數降低，兩者影響會如何改變。綠色為空力效應，黃色為重力效應，橫軸為一路段中僅有爬坡的平均坡度，縱軸為百分比，total weight 為人+車+裝備重。在此的總重量假設為 79 公斤，風阻面積假設是 0.28，而可看到當瓦數降低，空氣阻力的影響也降低，原因是因為瓦數低速率就慢，所以空力效應會降得比較快，若平均瓦數為 200 瓦如圖三，則當平均坡度為 1.5% 時空力效應就已經低於重力影響了。
+        圖二            圖三    　接著來看風阻面積改變時兩者的影響力，在此的總重量假設為 69 公斤，均瓦是 200，風阻面積從 0.</description>
+    </item>
+    
     <item>
       <title>標準化功率的數學及其意義</title>
       <link>https://jrphy.github.io/blog/post/np_and_its_meaning/</link>

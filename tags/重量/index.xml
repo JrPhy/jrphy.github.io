@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 騎乘技巧的理論分析</title>
-    <link>https://jrphy.github.io/blog/post/</link>
-    <description>Recent content in Posts on 騎乘技巧的理論分析</description>
+    <title>重量 on 騎乘技巧的理論分析</title>
+    <link>https://jrphy.github.io/blog/tags/%E9%87%8D%E9%87%8F/</link>
+    <description>Recent content in 重量 on 騎乘技巧的理論分析</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 May 2022 22:00:03 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 22:00:03 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E9%87%8D%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重量減輕爬坡可以快多少</title>
       <link>https://jrphy.github.io/blog/post/how_much_time_can_be_save_as_getting_lighter/</link>
@@ -31,20 +31,6 @@ Ptotal = (Wsinx + $\mu$ Wcosx + $\rho$ CdA( v + vw) 2/ 2 ) v + ( m + I / r 2 )(v
 　但是在單車科學這本書上，如果是300瓦的情況，那在坡度2%時兩者影響力差不多，我當時還滿驚訝的，因為坡度2%並不是很陡的坡，另外這張圖還有重量與風阻面積沒考慮比較，且對一般人來說300瓦太難達成了，那麼模型建立後我們就可以來驗證這件事情。
 　在此我們先改變瓦數，看看瓦數降低，兩者影響會如何改變。綠色為空力效應，黃色為重力效應，橫軸為一路段中僅有爬坡的平均坡度，縱軸為百分比，total weight 為人+車+裝備重。在此的總重量假設為 79 公斤，風阻面積假設是 0.28，而可看到當瓦數降低，空氣阻力的影響也降低，原因是因為瓦數低速率就慢，所以空力效應會降得比較快，若平均瓦數為 200 瓦如圖三，則當平均坡度為 1.5% 時空力效應就已經低於重力影響了。
         圖二            圖三    　接著來看風阻面積改變時兩者的影響力，在此的總重量假設為 69 公斤，均瓦是 200，風阻面積從 0.</description>
-    </item>
-    
-    <item>
-      <title>標準化功率的數學及其意義</title>
-      <link>https://jrphy.github.io/blog/post/np_and_its_meaning/</link>
-      <pubDate>Fri, 29 Apr 2022 15:14:42 +0800</pubDate>
-      
-      <guid>https://jrphy.github.io/blog/post/np_and_its_meaning/</guid>
-      <description>在做訓練時我們會預期這次訓練的量，而訓練的量即為此次運動的強度乘上時間。強度在自行車的世界有功率的話都以功率為優先 ，並會以其他數據為輔。然而強度則會根據每個人能力不同制定客製化訓練，所以會採用相對標準 。而自行車在騎乘時功率變化很大，所以會採用加權平均 的方式會比算術平均還更能反映真實期程情況，但是平均功率也是能看到如做功資訊，在騎乘時對於補給策略來說很重要。
-　自行車功率訓練自從 SRM 開發了第一個移動式功率計後，現在要練車的人幾乎都備有功率計，最重要的就是在騎乘完後的數據分析。現在也有許多的軟體會自動幫你計算，但若是剛開始入門會覺得眼花撩亂，如這圖一所示，這邊就先從標準化功率介紹。
-        圖一：使用功率計後軟體會多出 NP, IF, VI, TSS, WORK 等資訊    　一次訓練週期中課程不會只有一種，在這邊就拿兩種不一樣的課程來看，一個是接近 HIIT 如圖二，另一個則是穩定騎乘如圖三，有騎過這兩種課程的人都知道，若這兩次騎乘的平均瓦數與時間相同，一定是左圖的課程比較累，所以在訓練量的計算上若是使用平均功率，就不能反應這種情況。
-        圖二：IIT 課程            圖三：穩定騎乘課程    　為了反應這種情況，Coggan博士設計了另外一種計算方式，並將其命名為Normalized power，這邊我就翻成標準化功率，計算步驟如下：
-  計算30秒的移動平均值，例如第1~30秒算出一個值100，第2~31秒算出一個值101……以此類推 將第一步驟算出來的每個數值四次方，例如1~30秒算出的值為100，那就將100乘四次 把每個平均值四次方後取算術平均 最後開四次方跟即為所求   上面看起來好像很複雜，其實用數學符號化簡就只有一條式子如圖四。這種平均在數學上有名字，叫做冪平均，而我們想要的結果就是冪平均要大於算術平均，在數學上也剛好有冪平均不等式的結果，符合我們的期待，所以一次運動中，標準化功率的數值必定是大於等於平均功率。
-        圖四：標準化功率的計算方式及與平均功率的關係    　但是若有使用碼表計圈功能就會發現，在某些情況下標準化功率會小於平均功率。像圖五即為我的某次騎乘，其中有兩段小於30秒的計圈，就會發現這兩次計圈是小於平均功率的。但是計算平均功率又需要至少30秒的功率，那這是怎麼算的呢？前一頁提到計算標準化功率的第一步是先算30秒的平均功率，所以會將計圈前30秒的功率算進去，如果前30秒功率很低，那就會拉低標準化功率的值，也因為要先計算那30秒的平均，所以整體的反應會落後於瞬間功率。</description>
     </item>
     
   </channel>
