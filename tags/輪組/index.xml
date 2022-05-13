@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>裝備 on 騎乘技巧的理論分析</title>
-    <link>https://jrphy.github.io/blog/categories/%E8%A3%9D%E5%82%99/</link>
-    <description>Recent content in 裝備 on 騎乘技巧的理論分析</description>
+    <title>輪組 on 騎乘技巧的理論分析</title>
+    <link>https://jrphy.github.io/blog/tags/%E8%BC%AA%E7%B5%84/</link>
+    <description>Recent content in 輪組 on 騎乘技巧的理論分析</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 May 2022 22:10:00 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/categories/%E8%A3%9D%E5%82%99/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 May 2022 22:10:00 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E8%BC%AA%E7%B5%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Inertial_of_wheel_and_how_does_it_affect_riding</title>
       <link>https://jrphy.github.io/blog/post/inertial_of_wheel_and_how_does_it_affect_riding/</link>
@@ -21,19 +21,6 @@ mg - T = ma &amp;ndash;&amp;gt; T = m(g - a) = m(g - Rα) TR = Iα &amp;ndash;&a
 　在計算輪子的轉動慣量時我們會將輪子分成兩部分，一部分是輪框、花鼓、外胎與內胎，另一部分就是幅條，主要是因為這兩部分用到的模型會不同，前者是使用空心圓柱，另一個則是棒子。
 　所以我們就來使用此模型計算一下，這邊的數據就是來自剛剛那張圖，大概就是台灣賣場車的輪組與外胎，我們把數據都帶進去就可以得到此表格的結果，因為轉動慣量是跟到轉軸的距離有關，所以雖然花鼓重量比所有的幅條含鋁頭還重，但是因為離轉軸最近，所以算出來的結果其實跟所有幅條的總和還要小。再來看到輪框與外胎，因為重量重，又是離轉軸遠，所以所佔的轉動慣量比較大。那麼這樣算完之後總共的轉動傳量約為 0.1495，與這篇的實驗結果差不多。從結果可以看到，轉動慣量主要貢獻來自於輪框與外胎，所以若想要估算自己輪組的轉動慣量，可以只算輪框與外胎的轉動慣量即可。
    幅條含鋁頭*24  花鼓 輪圈(框高10)  外+內胎(25C)      L = 0.</description>
-    </item>
-    
-    <item>
-      <title>Ultegra 與 duraAce 配件重量比較</title>
-      <link>https://jrphy.github.io/blog/post/ultegra_vs_duraace_weight/</link>
-      <pubDate>Tue, 10 May 2022 17:50:43 +0800</pubDate>
-      
-      <guid>https://jrphy.github.io/blog/post/ultegra_vs_duraace_weight/</guid>
-      <description>因為每次想升級就要去找個零件的重量太麻煩了，所以就從官網直接找了資料整理成表格。
-11速的皆為機械油壓碟煞，12速的皆為電變油壓碟煞，單位皆為 g。
-大盤組(不含BB)皆為 50-34，飛輪皆為 11-30，碟盤皆為 140 mm。
-重量資訊：https://bike.shimano.com/zh-TW/components/road.html
-   零件 R8020  R9120  差異  R8170  R9270  差異      大盤組 674 614 -60 700 685 -15   飛輪 269 211 -58 291 223 -68   變把 554 538 -16 391 350 -41   前變 92 70 -22 116 96 -20   後變 200 158 -42 262 215 -47   卡鉗 286 256 -30 282 229 -53   碟盤 106 99 -9 88 88 -0   總和 2075 1847 -228 2042 1798 -224    2023 台灣官方定價資訊：http://www.</description>
     </item>
     
   </channel>

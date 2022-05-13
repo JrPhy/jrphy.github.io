@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Inertial_of_wheel_and_how_does_it_affect_riding // 騎乘技巧的理論分析</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="CycleFormula" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://jrphy.github.io/blog/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Inertial_of_wheel_and_how_does_it_affect_riding"/>
+<meta name="twitter:description" content="自行車在騎乘時輪子的運動狀態稱為滾動，而所謂的滾動就是移動＋轉動。而所謂的慣性呢，就是物體會保持原來的運動狀態，也就是說移動的物體保持移動，靜止的物體保持靜止。所以牛頓第一運動定律先闡明了，若沒受到力的作用，則靜者恆靜，動著恆做等速度運動。在此的速度為有方向的量。
+當把滾動分成移動跟轉動後，那麼慣性也分成了移動慣性與轉動慣性，那麼再根據力和加速度 F = ma，所以物體的質量就是移動慣性。同樣的力矩和角加速度有相同的關係 τ = Iα ，在物理中我們把轉動慣性叫做 I，又稱為轉動慣量，所以在這部影片中若你聽到轉動慣性與轉動慣量，這兩個是同一個東西。而輪子的受力來自於鍊條給的力矩，鍊條的力矩來自於我們的踩踏，所以這邊我們所關心的就是轉動慣量，其數學式為mr2，r 為質點到轉軸的距離。所以質量大的不一定轉動慣量就大，要看距離轉軸有多遠，所以馬戲團在走鋼索時常常會拿一個很長的棍子在走，就是要增加轉動慣量。
+　那麼轉動慣量要如何量測呢？其實轉動慣量就是跟轉動有關，也就是跟角度的變化有關，所以我們看到圖一就是一個測輪子轉動慣量的一種方式，不過要注意這邊的 R 還包含了充飽氣後外胎的膨脹，所以是要從線到轉軸的距離。那麼我們就可以利用這邊的計算結果來和我們的模型做比較。
+        圖一：量測轉動慣量    寫下力和力矩的方程式可個別得到
+mg - T = ma &ndash;&gt; T = m(g - a) = m(g - Rα) TR = Iα &ndash;&gt; m(g - Rα) = Iα I = m(g - Rα) / α
+　在計算輪子的轉動慣量時我們會將輪子分成兩部分，一部分是輪框、花鼓、外胎與內胎，另一部分就是幅條，主要是因為這兩部分用到的模型會不同，前者是使用空心圓柱，另一個則是棒子。
+　所以我們就來使用此模型計算一下，這邊的數據就是來自剛剛那張圖，大概就是台灣賣場車的輪組與外胎，我們把數據都帶進去就可以得到此表格的結果，因為轉動慣量是跟到轉軸的距離有關，所以雖然花鼓重量比所有的幅條含鋁頭還重，但是因為離轉軸最近，所以算出來的結果其實跟所有幅條的總和還要小。再來看到輪框與外胎，因為重量重，又是離轉軸遠，所以所佔的轉動慣量比較大。那麼這樣算完之後總共的轉動傳量約為 0.1495，與這篇的實驗結果差不多。從結果可以看到，轉動慣量主要貢獻來自於輪框與外胎，所以若想要估算自己輪組的轉動慣量，可以只算輪框與外胎的轉動慣量即可。
+   幅條含鋁頭*24  花鼓 輪圈(框高10)  外&#43;內胎(25C)      L = 0."/>
+
+    <meta property="og:title" content="Inertial_of_wheel_and_how_does_it_affect_riding" />
+<meta property="og:description" content="自行車在騎乘時輪子的運動狀態稱為滾動，而所謂的滾動就是移動＋轉動。而所謂的慣性呢，就是物體會保持原來的運動狀態，也就是說移動的物體保持移動，靜止的物體保持靜止。所以牛頓第一運動定律先闡明了，若沒受到力的作用，則靜者恆靜，動著恆做等速度運動。在此的速度為有方向的量。
+當把滾動分成移動跟轉動後，那麼慣性也分成了移動慣性與轉動慣性，那麼再根據力和加速度 F = ma，所以物體的質量就是移動慣性。同樣的力矩和角加速度有相同的關係 τ = Iα ，在物理中我們把轉動慣性叫做 I，又稱為轉動慣量，所以在這部影片中若你聽到轉動慣性與轉動慣量，這兩個是同一個東西。而輪子的受力來自於鍊條給的力矩，鍊條的力矩來自於我們的踩踏，所以這邊我們所關心的就是轉動慣量，其數學式為mr2，r 為質點到轉軸的距離。所以質量大的不一定轉動慣量就大，要看距離轉軸有多遠，所以馬戲團在走鋼索時常常會拿一個很長的棍子在走，就是要增加轉動慣量。
+　那麼轉動慣量要如何量測呢？其實轉動慣量就是跟轉動有關，也就是跟角度的變化有關，所以我們看到圖一就是一個測輪子轉動慣量的一種方式，不過要注意這邊的 R 還包含了充飽氣後外胎的膨脹，所以是要從線到轉軸的距離。那麼我們就可以利用這邊的計算結果來和我們的模型做比較。
+        圖一：量測轉動慣量    寫下力和力矩的方程式可個別得到
+mg - T = ma &ndash;&gt; T = m(g - a) = m(g - Rα) TR = Iα &ndash;&gt; m(g - Rα) = Iα I = m(g - Rα) / α
+　在計算輪子的轉動慣量時我們會將輪子分成兩部分，一部分是輪框、花鼓、外胎與內胎，另一部分就是幅條，主要是因為這兩部分用到的模型會不同，前者是使用空心圓柱，另一個則是棒子。
+　所以我們就來使用此模型計算一下，這邊的數據就是來自剛剛那張圖，大概就是台灣賣場車的輪組與外胎，我們把數據都帶進去就可以得到此表格的結果，因為轉動慣量是跟到轉軸的距離有關，所以雖然花鼓重量比所有的幅條含鋁頭還重，但是因為離轉軸最近，所以算出來的結果其實跟所有幅條的總和還要小。再來看到輪框與外胎，因為重量重，又是離轉軸遠，所以所佔的轉動慣量比較大。那麼這樣算完之後總共的轉動傳量約為 0.1495，與這篇的實驗結果差不多。從結果可以看到，轉動慣量主要貢獻來自於輪框與外胎，所以若想要估算自己輪組的轉動慣量，可以只算輪框與外胎的轉動慣量即可。
+   幅條含鋁頭*24  花鼓 輪圈(框高10)  外&#43;內胎(25C)      L = 0." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jrphy.github.io/blog/post/inertial_of_wheel_and_how_does_it_affect_riding/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-13T22:10:00+08:00" />
+<meta property="article:modified_time" content="2022-05-13T22:10:00+08:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrphy.github.io/blog/"><img class="app-header-avatar" src="/blog/avatar.jpg" alt="CycleFormula" /></a>
+      <h1>騎乘技巧的理論分析</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/blog/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/blog/about/">About</a>
+      </nav>
+      <p>用理論計算來分析單車運動</p>
+      <div class="app-header-social">
+        
+          <a href="https://www.facebook.com/CycleFormula" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-facebook">
+  <title>Facebook</title>
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.youtube.com/channel/UCei7UffxFMaYKRgmO-GsMRQ" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-youtube">
+  <title>Youtube</title>
+  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Inertial_of_wheel_and_how_does_it_affect_riding</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 13, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E8%BC%AA%E7%B5%84/">輪組</a>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E6%85%A3%E6%80%A7/">慣性</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>自行車在騎乘時輪子的運動狀態稱為滾動，而所謂的滾動就是移動＋轉動。而所謂的慣性呢，就是物體會保持原來的運動狀態，也就是說移動的物體保持移動，靜止的物體保持靜止。所以牛頓第一運動定律先闡明了，若沒受到力的作用，則靜者恆靜，動著恆做等速度運動。在此的速度為有方向的量。</p>
+<p>當把滾動分成移動跟轉動後，那麼慣性也分成了移動慣性與轉動慣性，那麼再根據力和加速度 <em>F = ma</em>，所以物體的質量就是移動慣性。同樣的力矩和角加速度有相同的關係 <em>τ = Iα</em> ，在物理中我們把轉動慣性叫做 <em>I</em>，又稱為轉動慣量，所以在這部影片中若你聽到轉動慣性與轉動慣量，這兩個是同一個東西。而輪子的受力來自於鍊條給的力矩，鍊條的力矩來自於我們的踩踏，所以這邊我們所關心的就是轉動慣量，其數學式為<em>mr</em><sup>2</sup>，<em>r</em> 為質點到轉軸的距離。所以質量大的不一定轉動慣量就大，要看距離轉軸有多遠，所以馬戲團在走鋼索時常常會拿一個很長的棍子在走，就是要增加轉動慣量。</p>
+<p>　　那麼轉動慣量要如何量測呢？其實轉動慣量就是跟轉動有關，也就是跟角度的變化有關，所以我們看到圖一就是一個測輪子轉動慣量的一種方式，不過要注意這邊的 <em>R</em> 還包含了充飽氣後外胎的膨脹，所以是要從線到轉軸的距離。那麼我們就可以利用這邊的計算結果來和我們的模型做比較。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="measure_inertia.jpg" alt="圖一"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖一：量測轉動慣量</td>
+</tr>
+</tbody>
+</table>
+<p>寫下力和力矩的方程式可個別得到<br>
+<em>mg - T = ma</em> &ndash;&gt; <em>T = m</em>(<em>g - a</em>) = <em>m</em>(<em>g - Rα</em>) <br>
+<em>TR = Iα</em> &ndash;&gt; <em>m</em>(<em>g - Rα</em>) = <em>Iα</em> <br>
+<em>I</em> = <em>m</em>(<em>g - Rα</em>) / <em>α</em></p>
+<p>　　在計算輪子的轉動慣量時我們會將輪子分成兩部分，一部分是輪框、花鼓、外胎與內胎，另一部分就是幅條，主要是因為這兩部分用到的模型會不同，前者是使用空心圓柱，另一個則是棒子。</p>
+<p>　　所以我們就來使用此模型計算一下，這邊的數據就是來自剛剛那張圖，大概就是台灣賣場車的輪組與外胎，我們把數據都帶進去就可以得到此表格的結果，因為轉動慣量是跟到轉軸的距離有關，所以雖然花鼓重量比所有的幅條含鋁頭還重，但是因為離轉軸最近，所以算出來的結果其實跟所有幅條的總和還要小。再來看到輪框與外胎，因為重量重，又是離轉軸遠，所以所佔的轉動慣量比較大。那麼這樣算完之後總共的轉動傳量約為 0.1495，與<a href="https://www.flippingphysics.com/uploads/2/1/1/0/21103672/0285_lecture_notes_-__1_of_2__measuring_the_rotational_inertia_of_a_bike_wheel.pdf">這篇的實驗結果</a>差不多。從結果可以看到，轉動慣量主要貢獻來自於<font color=#FF0000><strong>輪框與外胎</strong></font>，所以若想要估算自己輪組的轉動慣量，可以只算輪框與外胎的轉動慣量即可。</p>
+<table>
+<thead>
+<tr>
+<th>幅條含鋁頭*24 <div style="width:120px"></th>
+<th style="text-align:center">花鼓<div style="width:120px"></th>
+<th style="text-align:center">輪圈(框高10) <div style="width:120px"></th>
+<th style="text-align:center">外+內胎(25C) <div style="width:120px"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>L</em> = 0.3 m</td>
+<td style="text-align:center"><em>r</em> = 0.03 m</td>
+<td style="text-align:center"><em>r</em><sub>1</sub> = 0.31 m</td>
+<td style="text-align:center"><em>r</em><sub>1</sub> = 0.34 m</td>
+</tr>
+<tr>
+<td>m = 5 g</td>
+<td style="text-align:center">m = 300 g</td>
+<td style="text-align:center"><em>r</em><sub>2</sub> = 0.305 m</td>
+<td style="text-align:center"><em>r</em><sub>1</sub> = 0.32 m</td>
+</tr>
+<tr>
+<td>I ~ 0.0036 kg•m<sup>2</sup></td>
+<td style="text-align:center">I ~ 0.00081 kg•m<sup>2</sup></td>
+<td style="text-align:center"><em>m</em> = ~1000 g</td>
+<td style="text-align:center">m = ~500 g</td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><em>I</em> ~ 0.095 kg•m<sup>2</sup></td>
+<td style="text-align:center"><em>I</em> ~ 0.0545 kg•m<sup>2</sup></td>
+</tr>
+</tbody>
+</table>
+<p>　　接著來看高框輪與低框輪的轉動慣量如何，我們這邊假設是碳框板輪與鋁框爬坡輪，所以假設兩個輪組的重量相同，而且重量的差異是來自於輪框，又根據前面結果，雖然幅條、花鼓可能不同，但是影響不大，所以若內外胎也是一樣，那麼差異就來自於輪框，所以可得計算結果，板輪的轉動慣量是比爬坡輪還要小的，不過若是低框碳輪，重量就會少很多，所以轉動慣量自然也會比高框碳輪小。而因為外胎規格主要是差在重量，所以就不另外計算了。</p>
+<table>
+<thead>
+<tr>
+<th>輪圈(框高40)<div style="width:120px"></th>
+<th style="text-align:center">輪圈(框高20)<div style="width:120px"></th>
+<th style="text-align:center">輪圈(框高20) <div style="width:120px"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>r</em><sub>1</sub> = 0.31 m</td>
+<td style="text-align:center"><em>r</em><sub>1</sub> = 0.31 m</td>
+<td style="text-align:center"><em>r</em><sub>1</sub> = 0.31 m</td>
+</tr>
+<tr>
+<td><em>r</em><sub>2</sub> = 0.29 m</td>
+<td style="text-align:center"><em>r</em><sub>2</sub> = 0.30 m</td>
+<td style="text-align:center"><em>r</em><sub>2</sub> = 0.30 m</td>
+</tr>
+<tr>
+<td><em>m</em> = ~650 g</td>
+<td style="text-align:center"><em>m</em> = ~500 g</td>
+<td style="text-align:center"><em>m</em> = ~1000 g</td>
+</tr>
+<tr>
+<td><em>I</em> ~ 0.0586 kg•m<sup>2</sup></td>
+<td style="text-align:center"><em>I</em> ~ 0.0605 kg•m<sup>2</sup></td>
+<td style="text-align:center"><em>I</em> ~ 0.0372 kg•m<sup>2</sup></td>
+</tr>
+</tbody>
+</table>
+<p>　　那麼輪組的轉動慣量到底會如何影響騎乘呢？我們就從公路車的力學模型來看這件事，之前我們都討論等速度的情況，但實際情況是幾乎不可能等速度的，所以我們就看到模型的加速度效應，當我們做加速時，代表車子的合力不為 0，所以就會有力矩，此時輪組慣性的影響就會出來，所以若輪組慣性越大，重拖感就會越明顯。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="model.jpg" alt="圖二"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖二：力學模型</td>
+</tr>
+</tbody>
+</table>
+<p>　　反之當原本是固定速度騎乘時突然停腳休息，那麼輪組的慣性越大，速度也就掉的越慢。但是當速度掉下來後要加速，就又會感覺到輪組的慣性了。所以可以看到這兩張圖，當加速時就是我們要多輸出瓦數，減速時就是可以抵抗其他阻力。所以當一次騎乘時，速度變動很大且常常在加速減速，那麼輪組的慣性影響就會很大。</p>
+<table>
+<thead>
+<tr>
+<th>參數</th>
+<th style="text-align:center">重量 <em>W</em><div style="width:100px"></th>
+<th style="text-align:center">重力加速度 <em>g</em><div style="width:100px"></th>
+<th style="text-align:center">坡度<div style="width:100px"></th>
+<th style="text-align:center">摩擦係數 <em>μ</em><div style="width:100px"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>值</td>
+<td style="text-align:center">80 kg</td>
+<td style="text-align:center">9.81 m/s<sup>2</sup></td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0.0042</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>符號</th>
+<th style="text-align:center">轉動慣量 <em>I</em><div style="width:100px"></th>
+<th style="text-align:center">氣體密度 <em>ρ</em><div style="width:100px"></th>
+<th style="text-align:center">風阻面積 <em>CdA</em><div style="width:100px"></th>
+<th style="text-align:center">風速 <em>v<sub>w</sub></em><div style="width:100px"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>單位</td>
+<td style="text-align:center"><em>I</em> ~ 0.1 kg•m<sup>2</sup></td>
+<td style="text-align:center">1.229 kg/m<sup>3</sup></td>
+<td style="text-align:center">0.3 m<sup>2</sup></td>
+<td style="text-align:center">0 m/s</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="result.jpg" alt="圖三"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖三：結果</td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
