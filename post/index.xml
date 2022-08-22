@@ -6,7 +6,18 @@
     <description>Recent content in Posts on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jul 2022 11:00:36 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Aug 2022 09:35:39 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>器材與服裝影響騎乘的比例</title>
+      <link>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</link>
+      <pubDate>Mon, 22 Aug 2022 09:35:39 +0800</pubDate>
+      
+      <guid>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</guid>
+      <description>在騎乘時，當坡度越陡，重量影響的比例就越高，對於人+車總重 79 kg 的車手來說，在爬2 % 的坡時以 300 W 的輸出，那麼重力與空力的影響比大致一樣，超過這坡度時重量影響就更多，若以 200 W，則大概在 1.5% 的坡上大致一樣。而阻力通常占比非常小，大概是10% 左右，但就 200 W 而言也是會要消耗 20 W。所以主要的影響就是重量與空力，這部分可以看頻道另一部影片，裡面有詳細的介紹，可以點右上方的資訊欄去看，以下就分成這兩個來討論。 | ![圖一](Figure_1.png) | |:--:| | 圖一 |         圖二    　先來看重量的影響比例，這邊就分成人的重量與其他物品的重量，其他物品就包含車、安全帽、卡鞋、車衣等。
+表一：各部位重量範圍     人重 車重 人身部品     重量範圍 (kg) 45~85 6.5~8.5 0.8~1.2    所以分母就放總重，分子就放人的重量，然後再看一下車手的體重範圍就，可以算出人的重量所佔的比例。當其他物品很輕人很重的情況，人的占比就很大，可到 92.1%，反過來說人很輕，其他重量很重就是人占比最小的情況，但還是有佔大概82%左右，以台灣的情況一般而言人大概是佔88.4% 左右。
+人占比最大的情況：85 kg 騎 6.5 kg 車+0.8 kg 裝備 ~ 92.</description>
+    </item>
+    
     <item>
       <title>改變曲柄長度會如何影響騎乘</title>
       <link>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</link>
