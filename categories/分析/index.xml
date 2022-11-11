@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>分析 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/categories/%E5%88%86%E6%9E%90/</link>
+    <link>https://jrphy.github.io/blog/categories/%E5%88%86%E6%9E%90/</link>
     <description>Recent content in 分析 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 28 Jul 2022 11:00:36 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/categories/%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2022 11:00:36 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/categories/%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>改變曲柄長度會如何影響騎乘</title>
-      <link>https://jrphy.github.io/post/how_does_crank_length_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</link>
       <pubDate>Thu, 28 Jul 2022 11:00:36 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/how_does_crank_length_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</guid>
       <description>一、曲柄長度與齒比 單車主要就兩種簡單機械，輪軸與齒輪。齒輪只會改變受力方向，不改變受力大小，例如大盤跟飛輪就是此種關係。輪軸則是槓桿的變形，例如大盤與曲柄，和飛輪與輪子，所以可以用力矩方程式來計算。首先先來看曲柄長度與齒比的關係，這邊我們就把各器材的受力與半徑分配符號如表一
 人施力 F1 輪子受力 F2 大盤受力 f 飛輪受力 f 曲柄長 R1 輪子半徑 R2 大盤半徑 r1 飛輪半徑 r2 表一：個符號代表意義
 所以可以列出力矩方程式
@@ -27,10 +27,10 @@ W 做功 施力 F 位移 s P 功率 曲柄長 r 力矩 J 角度 q 角速度 w P 
     
     <item>
       <title>過彎壓車帥又快</title>
-      <link>https://jrphy.github.io/post/lean_your_bike_when_turning/</link>
+      <link>https://jrphy.github.io/blog/post/lean_your_bike_when_turning/</link>
       <pubDate>Sat, 18 Jun 2022 08:57:39 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/lean_your_bike_when_turning/</guid>
+      <guid>https://jrphy.github.io/blog/post/lean_your_bike_when_turning/</guid>
       <description> 不論是自行車或是機車，在高速過彎時常常看到車手會將人與車往同一邊傾斜，然後就快速的過彎。那麼究竟壓車除了帥以外還有什麼優點的？設總重量為 W = mg，輪胎與地面靜摩擦係數為 μ，人與車重心和輪胎接觸點的連線，與鉛直線的夾角為 x，在此稱為傾角。轉彎當下的力圖如圖一，可知水平與鉛直方向合力為零，所以正向力與重力大小相等 mg = N，摩擦力與向心力大小相等 FC = mv 2/ R = fs。
 再由合力矩 fs Lcosx = NLsinx 可以得到靜摩擦力等於正向力乘上tanx。所以將上述的關係帶進來可得，傾角只與摩擦係數有關，跟重量那些無關。當傾角越大，所受到的摩擦力也越大。當為最大靜摩擦力時，μmg = mgtanx &amp;ndash;&amp;gt; μ = tanx ，那麼再根據向心力可知過彎速度也越快，所以過彎壓車除了帥之外還可以讓你過彎更快，當然還是需要自行注意道路狀況。
 mv 2/ R = mgtanx &amp;ndash;&amp;gt; v 2 = gR tanx ∝ R tanx
@@ -47,10 +47,10 @@ c. 出彎加速 善用路邊凸面鏡看得更遠 </description>
     
     <item>
       <title>重量減輕爬坡可以快多少</title>
-      <link>https://jrphy.github.io/post/how_much_time_can_be_save_as_getting_lighter/</link>
+      <link>https://jrphy.github.io/blog/post/how_much_time_can_be_save_as_getting_lighter/</link>
       <pubDate>Mon, 09 May 2022 22:00:03 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/how_much_time_can_be_save_as_getting_lighter/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_much_time_can_be_save_as_getting_lighter/</guid>
       <description>大家都知道重量越輕爬坡越快，那麼輕多少到底可以快多少，這篇文章就算給你看。這邊先從公路車的力學模型出發，然後解此方程式來得到相同瓦數下，不同重量下的時間會有什麼改變。
 Ptotal = (Wsinx + μWcosx + ρCdA( v + vw) 2 / 2 ) v + ( m + I / r 2 )(vf 2 – vi 2) /2
 符號 質量 m 重力加速度 g 速率 v 摩擦係數 μ 單位 kg m/s2 m/s 無單位 符號 重量 W 氣體密度 ρ 風阻面積 CdA 風速 vw 單位 N kg/m3 m2 m/s 那麼我們先來看一下我們的模型，其數學形式就是這樣，第一項是重力作用，第二項是摩擦力作用，第三項是空氣阻力作用，第四項是加速項。然後還有一些沒考慮到的，所以用此方程式來預估功率通常會稍微低估。
@@ -62,10 +62,10 @@ Ptotal = (Wsinx + μWcosx + ρCdA( v + vw) 2 / 2 ) v + ( m + I / r 2 )(vf 2 – 
     
     <item>
       <title>爬坡時重力與空力效應的比較</title>
-      <link>https://jrphy.github.io/post/aero_vs_weight_when_climbing/</link>
+      <link>https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/</link>
       <pubDate>Sun, 01 May 2022 16:19:19 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/aero_vs_weight_when_climbing/</guid>
+      <guid>https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/</guid>
       <description>空氣力學對於自行車來說，速度越快阻力就越大。而重力則是在坡度越陡時影響越大。那麼這兩個效應到底在什麼情況下，誰的影響比較大呢？在此我們會有一些假設，這些假設並不會對計算結果造成太大的誤差，如過程中 總重量、重力加速度和摩擦係數為定值 。另外也有限制我們的計算情境如下
 全程只有一個人獨騎 過程中不落地 無風的晴天 僅使用平均坡度計算 功率可以穩定輸出 所以根據假設，把剩下沒考慮到的叫做 Fothers。所以當人施力的時候會受到這四個力個抵抗，若是當下的速率為 v，那麼我們將個別的力算出來再乘上速率，就可以得到每個力所消耗的功率。在此我們將重力與空氣阻力所產生的功率加起來放在分母，然後分子分別放上重力與空氣阻力的功率，就分別得到 Pa 與 Pg ，代表的是分別是空氣阻力和重力分別佔這兩個的比重多少，且兩個和為 1，所以若其中一個大於0.5，則表示該效應較大。例如在平地就不會有重力作用，所以 Pa = 1，Pg = 0，所以空氣阻力的效應比較大。
 圖一：比較方法 此為這篇文章比較方法，若有其他比較辦法也可以利用此方程式自行做計算比較。在我還沒深入去想這問題時，我直覺是空氣阻力產生的功率是速率的三次方，那應該大部分的情況是空力影響較大吧？

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/post/</link>
+    <link>https://jrphy.github.io/blog/post/</link>
     <description>Recent content in Posts on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 10 Nov 2022 23:07:05 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 23:07:05 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CP 與 FTP 的介紹與生理意義</title>
-      <link>https://jrphy.github.io/post/cp_and_ftp/</link>
+      <link>https://jrphy.github.io/blog/post/cp_and_ftp/</link>
       <pubDate>Thu, 10 Nov 2022 23:07:05 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/cp_and_ftp/</guid>
+      <guid>https://jrphy.github.io/blog/post/cp_and_ftp/</guid>
       <description>&amp;hellip; 一、運動科學中乳酸閥值的定義 在運動科學中通常會使用，最大攝氧量與乳酸閥值及其他數據，然後搭配其他數據，例如跑步為速度 自行車為功率，來去衡量一個運動員的能力。 乳酸閥值在運動科學上有25種的定義，這邊大致上分三類
 乳酸濃度達到 4 mmol/L 就稱作乳酸閥值，又稱作 OBLA
 另一個是是最大可維持的穩態乳酸，簡稱MLSS
@@ -28,10 +28,10 @@ FTP 的定義並沒有說明能維持多久的時間，那為什麼許多人都�
     
     <item>
       <title>器材與服裝影響騎乘的比例</title>
-      <link>https://jrphy.github.io/post/how_machine_and_wear_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</link>
       <pubDate>Mon, 22 Aug 2022 09:35:39 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/how_machine_and_wear_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</guid>
       <description>在騎乘時，當坡度越陡，重量影響的比例就越高，對於人+車總重 79 kg 的車手來說，在爬2 % 的坡時以 300 W 的輸出，那麼重力與空力的影響比大致一樣，超過這坡度時重量影響就更多，若以 200 W，則大概在 1.5% 的坡上大致一樣。而阻力通常占比非常小，大概是10% 左右，但就 200 W 而言也是會要消耗 20 W。所以主要的影響就是重量與空力，這部分可以看頻道另一部影片，裡面有詳細的介紹，可以點右上方的資訊欄去看，以下就分成這兩個來討論。
 圖一 圖二 先來看重量的影響比例，這邊就分成人的重量與其他物品的重量，其他物品就包含車、安全帽、卡鞋、車衣等。
 人重 車重 人身部品 重量範圍 (kg) 45~85 6.5~8.5 0.8~1.2 所以分母就放總重，分子就放人的重量，然後再看一下車手的體重範圍就，可以算出人的重量所佔的比例。當其他物品很輕人很重的情況，人的占比就很大，可到 92.1%，反過來說人很輕，其他重量很重就是人占比最小的情況，但還是有佔大概82%左右，以台灣的情況一般而言人大概是佔88.4% 左右。
@@ -44,10 +44,10 @@ FTP 的定義並沒有說明能維持多久的時間，那為什麼許多人都�
     
     <item>
       <title>改變曲柄長度會如何影響騎乘</title>
-      <link>https://jrphy.github.io/post/how_does_crank_length_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</link>
       <pubDate>Thu, 28 Jul 2022 11:00:36 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/how_does_crank_length_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</guid>
       <description>一、曲柄長度與齒比 單車主要就兩種簡單機械，輪軸與齒輪。齒輪只會改變受力方向，不改變受力大小，例如大盤跟飛輪就是此種關係。輪軸則是槓桿的變形，例如大盤與曲柄，和飛輪與輪子，所以可以用力矩方程式來計算。首先先來看曲柄長度與齒比的關係，這邊我們就把各器材的受力與半徑分配符號如表一
 人施力 F1 輪子受力 F2 大盤受力 f 飛輪受力 f 曲柄長 R1 輪子半徑 R2 大盤半徑 r1 飛輪半徑 r2 表一：個符號代表意義
 所以可以列出力矩方程式
@@ -62,10 +62,10 @@ W 做功 施力 F 位移 s P 功率 曲柄長 r 力矩 J 角度 q 角速度 w P 
     
     <item>
       <title>過彎壓車帥又快</title>
-      <link>https://jrphy.github.io/post/lean_your_bike_when_turning/</link>
+      <link>https://jrphy.github.io/blog/post/lean_your_bike_when_turning/</link>
       <pubDate>Sat, 18 Jun 2022 08:57:39 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/lean_your_bike_when_turning/</guid>
+      <guid>https://jrphy.github.io/blog/post/lean_your_bike_when_turning/</guid>
       <description> 不論是自行車或是機車，在高速過彎時常常看到車手會將人與車往同一邊傾斜，然後就快速的過彎。那麼究竟壓車除了帥以外還有什麼優點的？設總重量為 W = mg，輪胎與地面靜摩擦係數為 μ，人與車重心和輪胎接觸點的連線，與鉛直線的夾角為 x，在此稱為傾角。轉彎當下的力圖如圖一，可知水平與鉛直方向合力為零，所以正向力與重力大小相等 mg = N，摩擦力與向心力大小相等 FC = mv 2/ R = fs。
 再由合力矩 fs Lcosx = NLsinx 可以得到靜摩擦力等於正向力乘上tanx。所以將上述的關係帶進來可得，傾角只與摩擦係數有關，跟重量那些無關。當傾角越大，所受到的摩擦力也越大。當為最大靜摩擦力時，μmg = mgtanx &amp;ndash;&amp;gt; μ = tanx ，那麼再根據向心力可知過彎速度也越快，所以過彎壓車除了帥之外還可以讓你過彎更快，當然還是需要自行注意道路狀況。
 mv 2/ R = mgtanx &amp;ndash;&amp;gt; v 2 = gR tanx ∝ R tanx
@@ -82,10 +82,10 @@ c. 出彎加速 善用路邊凸面鏡看得更遠 </description>
     
     <item>
       <title>輪組的慣性及如何影響騎乘</title>
-      <link>https://jrphy.github.io/post/inertial_of_wheel_and_how_does_it_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/inertial_of_wheel_and_how_does_it_affect_riding/</link>
       <pubDate>Fri, 13 May 2022 22:10:00 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/inertial_of_wheel_and_how_does_it_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/inertial_of_wheel_and_how_does_it_affect_riding/</guid>
       <description>自行車在騎乘時輪子的運動狀態稱為滾動，而所謂的滾動就是移動＋轉動。而所謂的慣性呢，就是物體會保持原來的運動狀態，也就是說移動的物體保持移動，靜止的物體保持靜止。所以牛頓第一運動定律先闡明了，若沒受到力的作用，則靜者恆靜，動著恆做等速度運動。在此的速度為有方向的量。
 當把滾動分成移動跟轉動後，那麼慣性也分成了移動慣性與轉動慣性，那麼再根據力和加速度 F = ma，所以物體的質量就是移動慣性。同樣的力矩和角加速度有相同的關係 τ = Iα ，在物理中我們把轉動慣性叫做 I，又稱為轉動慣量，所以在這部影片中若你聽到轉動慣性與轉動慣量，這兩個是同一個東西。而輪子的受力來自於鍊條給的力矩，鍊條的力矩來自於我們的踩踏，所以這邊我們所關心的就是轉動慣量，其數學式為mr 2，r 為質點到轉軸的距離。所以質量大的不一定轉動慣量就大，要看距離轉軸有多遠，所以馬戲團在走鋼索時常常會拿一個很長的棍子在走，就是要增加轉動慣量。
 那麼轉動慣量要如何量測呢？其實轉動慣量就是跟轉動有關，也就是跟角度的變化有關，所以我們看到圖一就是一個測輪子轉動慣量的一種方式，不過要注意這邊的 R 還包含了充飽氣後外胎的膨脹，所以是要從線到轉軸的距離。那麼我們就可以利用這邊的計算結果來和我們的模型做比較。
@@ -98,10 +98,10 @@ mg - T = ma &amp;ndash;&amp;gt; T = m(g - a) = m(g - Rα) TR = Iα &amp;ndash;&a
     
     <item>
       <title>105 與 Ultegra 與 duraAce 配件重量比較</title>
-      <link>https://jrphy.github.io/post/ultegra_vs_duraace_weight/</link>
+      <link>https://jrphy.github.io/blog/post/ultegra_vs_duraace_weight/</link>
       <pubDate>Tue, 10 May 2022 17:50:43 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/ultegra_vs_duraace_weight/</guid>
+      <guid>https://jrphy.github.io/blog/post/ultegra_vs_duraace_weight/</guid>
       <description>因為每次想升級就要去找個零件的重量太麻煩了，所以就從官網直接找了資料整理成表格。
 11速的皆為機械油壓碟煞，12速的皆為電變油壓碟煞，單位皆為 g。
 大盤組(不含BB)皆為 50-34，飛輪皆為 11-30，碟盤皆為 140 mm。
@@ -112,10 +112,10 @@ R7170 重量來源
     
     <item>
       <title>重量減輕爬坡可以快多少</title>
-      <link>https://jrphy.github.io/post/how_much_time_can_be_save_as_getting_lighter/</link>
+      <link>https://jrphy.github.io/blog/post/how_much_time_can_be_save_as_getting_lighter/</link>
       <pubDate>Mon, 09 May 2022 22:00:03 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/how_much_time_can_be_save_as_getting_lighter/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_much_time_can_be_save_as_getting_lighter/</guid>
       <description>大家都知道重量越輕爬坡越快，那麼輕多少到底可以快多少，這篇文章就算給你看。這邊先從公路車的力學模型出發，然後解此方程式來得到相同瓦數下，不同重量下的時間會有什麼改變。
 Ptotal = (Wsinx + μWcosx + ρCdA( v + vw) 2 / 2 ) v + ( m + I / r 2 )(vf 2 – vi 2) /2
 符號 質量 m 重力加速度 g 速率 v 摩擦係數 μ 單位 kg m/s2 m/s 無單位 符號 重量 W 氣體密度 ρ 風阻面積 CdA 風速 vw 單位 N kg/m3 m2 m/s 那麼我們先來看一下我們的模型，其數學形式就是這樣，第一項是重力作用，第二項是摩擦力作用，第三項是空氣阻力作用，第四項是加速項。然後還有一些沒考慮到的，所以用此方程式來預估功率通常會稍微低估。
@@ -127,10 +127,10 @@ Ptotal = (Wsinx + μWcosx + ρCdA( v + vw) 2 / 2 ) v + ( m + I / r 2 )(vf 2 – 
     
     <item>
       <title>爬坡時重力與空力效應的比較</title>
-      <link>https://jrphy.github.io/post/aero_vs_weight_when_climbing/</link>
+      <link>https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/</link>
       <pubDate>Sun, 01 May 2022 16:19:19 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/aero_vs_weight_when_climbing/</guid>
+      <guid>https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/</guid>
       <description>空氣力學對於自行車來說，速度越快阻力就越大。而重力則是在坡度越陡時影響越大。那麼這兩個效應到底在什麼情況下，誰的影響比較大呢？在此我們會有一些假設，這些假設並不會對計算結果造成太大的誤差，如過程中 總重量、重力加速度和摩擦係數為定值 。另外也有限制我們的計算情境如下
 全程只有一個人獨騎 過程中不落地 無風的晴天 僅使用平均坡度計算 功率可以穩定輸出 所以根據假設，把剩下沒考慮到的叫做 Fothers。所以當人施力的時候會受到這四個力個抵抗，若是當下的速率為 v，那麼我們將個別的力算出來再乘上速率，就可以得到每個力所消耗的功率。在此我們將重力與空氣阻力所產生的功率加起來放在分母，然後分子分別放上重力與空氣阻力的功率，就分別得到 Pa 與 Pg ，代表的是分別是空氣阻力和重力分別佔這兩個的比重多少，且兩個和為 1，所以若其中一個大於0.5，則表示該效應較大。例如在平地就不會有重力作用，所以 Pa = 1，Pg = 0，所以空氣阻力的效應比較大。
 圖一：比較方法 此為這篇文章比較方法，若有其他比較辦法也可以利用此方程式自行做計算比較。在我還沒深入去想這問題時，我直覺是空氣阻力產生的功率是速率的三次方，那應該大部分的情況是空力影響較大吧？
@@ -143,10 +143,10 @@ Ptotal = (Wsinx + μWcosx + ρCdA( v + vw) 2 / 2 ) v + ( m + I / r 2 )(vf 2 – 
     
     <item>
       <title>標準化功率的數學及其意義</title>
-      <link>https://jrphy.github.io/post/np_and_its_meaning/</link>
+      <link>https://jrphy.github.io/blog/post/np_and_its_meaning/</link>
       <pubDate>Fri, 29 Apr 2022 15:14:42 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/np_and_its_meaning/</guid>
+      <guid>https://jrphy.github.io/blog/post/np_and_its_meaning/</guid>
       <description>在做訓練時我們會預期這次訓練的量，而訓練的量即為此次運動的強度乘上時間。強度在自行車的世界有功率的話都以 功率為優先 ，並會以其他數據為輔。然而強度則會根據每個人能力不同制定客製化訓練，所以會採用 相對標準 。而自行車在騎乘時功率變化很大，所以會採用 加權平均 的方式會比算術平均還更能反映真實期程情況，但是平均功率也是能看到如做功資訊，在騎乘時對於補給策略來說很重要。
 自行車功率訓練自從 SRM 開發了第一個移動式功率計後，現在要練車的人幾乎都備有功率計，最重要的就是在騎乘完後的數據分析。現在也有許多的軟體會自動幫你計算，但若是剛開始入門會覺得眼花撩亂，如這圖一所示，這邊就先從標準化功率介紹。
 圖一：使用功率計後軟體會多出 NP, IF, VI, TSS, WORK 等資訊 一次訓練週期中課程不會只有一種，在這邊就拿兩種不一樣的課程來看，一個是接近 HIIT 如圖二，另一個則是穩定騎乘如圖三，有騎過這兩種課程的人都知道，若這兩次騎乘的平均瓦數與時間相同，一定是左圖的課程比較累，所以在訓練量的計算上若是使用平均功率，就不能反應這種情況。

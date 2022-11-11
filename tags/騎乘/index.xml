@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>騎乘 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/tags/%E9%A8%8E%E4%B9%98/</link>
+    <link>https://jrphy.github.io/blog/tags/%E9%A8%8E%E4%B9%98/</link>
     <description>Recent content in 騎乘 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 28 Jul 2022 11:00:36 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/tags/%E9%A8%8E%E4%B9%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2022 11:00:36 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E9%A8%8E%E4%B9%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>改變曲柄長度會如何影響騎乘</title>
-      <link>https://jrphy.github.io/post/how_does_crank_length_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</link>
       <pubDate>Thu, 28 Jul 2022 11:00:36 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/how_does_crank_length_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</guid>
       <description>一、曲柄長度與齒比 單車主要就兩種簡單機械，輪軸與齒輪。齒輪只會改變受力方向，不改變受力大小，例如大盤跟飛輪就是此種關係。輪軸則是槓桿的變形，例如大盤與曲柄，和飛輪與輪子，所以可以用力矩方程式來計算。首先先來看曲柄長度與齒比的關係，這邊我們就把各器材的受力與半徑分配符號如表一
 人施力 F1 輪子受力 F2 大盤受力 f 飛輪受力 f 曲柄長 R1 輪子半徑 R2 大盤半徑 r1 飛輪半徑 r2 表一：個符號代表意義
 所以可以列出力矩方程式

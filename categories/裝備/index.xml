@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>裝備 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/categories/%E8%A3%9D%E5%82%99/</link>
+    <link>https://jrphy.github.io/blog/categories/%E8%A3%9D%E5%82%99/</link>
     <description>Recent content in 裝備 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 22 Aug 2022 09:35:39 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/categories/%E8%A3%9D%E5%82%99/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Aug 2022 09:35:39 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/categories/%E8%A3%9D%E5%82%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>器材與服裝影響騎乘的比例</title>
-      <link>https://jrphy.github.io/post/how_machine_and_wear_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</link>
       <pubDate>Mon, 22 Aug 2022 09:35:39 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/how_machine_and_wear_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</guid>
       <description>在騎乘時，當坡度越陡，重量影響的比例就越高，對於人+車總重 79 kg 的車手來說，在爬2 % 的坡時以 300 W 的輸出，那麼重力與空力的影響比大致一樣，超過這坡度時重量影響就更多，若以 200 W，則大概在 1.5% 的坡上大致一樣。而阻力通常占比非常小，大概是10% 左右，但就 200 W 而言也是會要消耗 20 W。所以主要的影響就是重量與空力，這部分可以看頻道另一部影片，裡面有詳細的介紹，可以點右上方的資訊欄去看，以下就分成這兩個來討論。
 圖一 圖二 先來看重量的影響比例，這邊就分成人的重量與其他物品的重量，其他物品就包含車、安全帽、卡鞋、車衣等。
 人重 車重 人身部品 重量範圍 (kg) 45~85 6.5~8.5 0.8~1.2 所以分母就放總重，分子就放人的重量，然後再看一下車手的體重範圍就，可以算出人的重量所佔的比例。當其他物品很輕人很重的情況，人的占比就很大，可到 92.1%，反過來說人很輕，其他重量很重就是人占比最小的情況，但還是有佔大概82%左右，以台灣的情況一般而言人大概是佔88.4% 左右。
@@ -25,10 +25,10 @@
     
     <item>
       <title>輪組的慣性及如何影響騎乘</title>
-      <link>https://jrphy.github.io/post/inertial_of_wheel_and_how_does_it_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/inertial_of_wheel_and_how_does_it_affect_riding/</link>
       <pubDate>Fri, 13 May 2022 22:10:00 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/inertial_of_wheel_and_how_does_it_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/inertial_of_wheel_and_how_does_it_affect_riding/</guid>
       <description>自行車在騎乘時輪子的運動狀態稱為滾動，而所謂的滾動就是移動＋轉動。而所謂的慣性呢，就是物體會保持原來的運動狀態，也就是說移動的物體保持移動，靜止的物體保持靜止。所以牛頓第一運動定律先闡明了，若沒受到力的作用，則靜者恆靜，動著恆做等速度運動。在此的速度為有方向的量。
 當把滾動分成移動跟轉動後，那麼慣性也分成了移動慣性與轉動慣性，那麼再根據力和加速度 F = ma，所以物體的質量就是移動慣性。同樣的力矩和角加速度有相同的關係 τ = Iα ，在物理中我們把轉動慣性叫做 I，又稱為轉動慣量，所以在這部影片中若你聽到轉動慣性與轉動慣量，這兩個是同一個東西。而輪子的受力來自於鍊條給的力矩，鍊條的力矩來自於我們的踩踏，所以這邊我們所關心的就是轉動慣量，其數學式為mr 2，r 為質點到轉軸的距離。所以質量大的不一定轉動慣量就大，要看距離轉軸有多遠，所以馬戲團在走鋼索時常常會拿一個很長的棍子在走，就是要增加轉動慣量。
 那麼轉動慣量要如何量測呢？其實轉動慣量就是跟轉動有關，也就是跟角度的變化有關，所以我們看到圖一就是一個測輪子轉動慣量的一種方式，不過要注意這邊的 R 還包含了充飽氣後外胎的膨脹，所以是要從線到轉軸的距離。那麼我們就可以利用這邊的計算結果來和我們的模型做比較。
@@ -41,10 +41,10 @@ mg - T = ma &amp;ndash;&amp;gt; T = m(g - a) = m(g - Rα) TR = Iα &amp;ndash;&a
     
     <item>
       <title>105 與 Ultegra 與 duraAce 配件重量比較</title>
-      <link>https://jrphy.github.io/post/ultegra_vs_duraace_weight/</link>
+      <link>https://jrphy.github.io/blog/post/ultegra_vs_duraace_weight/</link>
       <pubDate>Tue, 10 May 2022 17:50:43 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/post/ultegra_vs_duraace_weight/</guid>
+      <guid>https://jrphy.github.io/blog/post/ultegra_vs_duraace_weight/</guid>
       <description>因為每次想升級就要去找個零件的重量太麻煩了，所以就從官網直接找了資料整理成表格。
 11速的皆為機械油壓碟煞，12速的皆為電變油壓碟煞，單位皆為 g。
 大盤組(不含BB)皆為 50-34，飛輪皆為 11-30，碟盤皆為 140 mm。
