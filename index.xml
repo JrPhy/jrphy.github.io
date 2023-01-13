@@ -6,7 +6,19 @@
     <description>Recent content on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 31 Dec 2022 20:53:15 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 21:01:32 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>空力與重量如何選擇</title>
+      <link>https://jrphy.github.io/blog/post/how_to_select_aero_and_weight/</link>
+      <pubDate>Fri, 13 Jan 2023 21:01:32 +0800</pubDate>
+      
+      <guid>https://jrphy.github.io/blog/post/how_to_select_aero_and_weight/</guid>
+      <description>以前總是有許多的文章在討論要空力車還是爬坡車，而大多數的廠商也是兩種車都出，當然也是有少數如 PINARELLO 只有一種車，現在則是越來越多車廠有出全能車，甚至指出全能車不再分空力跟爬坡，那麼我們來看一下空力車架與全能車架的差異。
+我們先來看 Cervelo 的空力車與全能車，把 S5 跟 Soloist 兩張圖疊在一起可以發現，就形狀上看起來幾乎是一樣的，也可以看到後叉下移的位置跟空力車一樣，只差在空力車架側面看起來比較粗壯，而全能車的管型則是採用 D 型管，所以側面看起來跟爬坡車差異不大，主要來說就是車架形狀跟空力車一樣，車架管型比較貼近爬坡車。
+圖一：S5 與 Sololist 就性能方面 Cervelo 的官方說法則是，Soloist 大概比 S5 輕 250 g，也大概比 R5 重 250 g，空力則是比 S5 慢 190 g，而比 R5 快 126 g，這個空力單位可以去看頻道中另一部影片，有介紹一些空力表示法跟怎麼來的，當然空力減少多少一般人比較難去驗證，即便是用電腦跑模擬都是用商用軟體，而且通常也要跑很久，所以相較於重量大家很難有感覺，明顯之所以叫全能車，就是介於兩者之間，可以想成從蹺蹺板的兩端往中間走。
+當然幾乎所有強調空力的車架側面看起來都很粗壯，就跟每個型狀的流體力學性質有關，主要就是如何讓空氣順順的流過車架而不減速，詳細的說明可以去看頻道中另一部影片。那麼來看一下美利達的空力車與全能車，全能車是由 Scultura 改過來的，原本的 Scultura 定位是爬坡車，現在技術進步爬坡車要低於 6.8 kg 易如反掌，可是三大賽的車又有 UCI 的規定，所以從爬坡車改過來也是滿合理的，可以看到就車架型狀來看兩車幾乎一樣，而車架管型則是空力車比較壯 跟 Cervelo 一樣，性能方面美利達的官方說法則是，在時速 45 配 60 板高的情況下，Scultura V 所需瓦數是 224.5 W，而 Reacto IV 所需瓦數是 217.7 W，但是能不能達到這個速度及維持多久是另一件事，現在的頂級 Scultura 大概是 6.95 kg 左右，非常接近 UCI 所訂出的下限，而相同配件的 Reacto IV 大概是 7.</description>
+    </item>
+    
     <item>
       <title>HIIT 課表要如何安排 能減比較多的脂肪嗎 智慧訓練台如何操作 HIIT 課表</title>
       <link>https://jrphy.github.io/blog/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</link>
