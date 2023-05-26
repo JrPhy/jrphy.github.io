@@ -6,7 +6,19 @@
     <description>Recent content in Posts on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 26 May 2023 09:43:54 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 14:34:11 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重量減輕爬坡能快多少 以武嶺 塔塔加 太平山為例</title>
+      <link>https://jrphy.github.io/blog/post/how_faster_as_getting_lighter/</link>
+      <pubDate>Fri, 26 May 2023 14:34:11 +0800</pubDate>
+      
+      <guid>https://jrphy.github.io/blog/post/how_faster_as_getting_lighter/</guid>
+      <description>在騎乘自行車大家最常討論的就是整車多輕，當然台灣地勢起伏大，車越輕當然也越好，那我們就來算一下在這些路段重量減輕可以快多少。這邊的計算假設就是換裝備，只有重量上的差異，其餘如形狀等地都沒差，像換變速就是形狀一樣但重量變輕，或是同車款的二級鋁車換一級碳車等方式，然後其他的如天氣，路面狀況等都一樣去計算。當然重量減輕那麼速度就一定會變快，速度變快風阻就會變大，所以實際上的減少時間會比算出來的再少一點。
+首先就先來看到台灣的熱門路線-西進武嶺，這邊基本上都是以總重量 65 kg 然後加 200 g，算了幾個不同的瓦數來看看結果如何，可以看到對於相同瓦數而言，重量減少與換到的時間增加幾乎是線性的，有些許不同是因為直接將結果進位了，如果瓦數降低則得到的效益會比較大，主要是因為瓦數低速率就慢，所以風阻也降低，這時重量的效應就比較大，然後從計算結果來看，如果西進要三小時內，就是均瓦除以總重大約要有推力 4 左右，如果是三個半小時的話則大約要有推力 2.8 左右。
+表一：西進武嶺，不同重量與瓦數算出來的時間
+總重量 (kg) 240 W 220 W 200 W 180 W 160 W 65.0 9845 10576 11460 12548 13923 65.2 9864 10598 11484 12557 13955 65.4 9884 10620 11509 12608 13987 65.6 9904 10641 11533 12633 14019 65.8 9923 10663 11558 12661 14051 66.0 9943 10685 11583 12689 14083 66.2 9962 10707 11607 12717 14115 66.4 9982 10729 11632 12745 14148 66.</description>
+    </item>
+    
     <item>
       <title>無內胎 開口胎 管胎怎麼選 胎壓越高可以越快嗎</title>
       <link>https://jrphy.github.io/blog/post/tubular_and_tubeless/</link>
