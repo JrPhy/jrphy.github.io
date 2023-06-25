@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <title>從瓦數 坡度 踏頻和曲柄長來選擇自己適合的齒比 // 單車新幹線Cycle Formula</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.105.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="單車新幹線Cycle Formula" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://jrphy.github.io/blog/css/main.min.dd8e013c956a7fa5dd5b55da0972f395cff8a888c7683eefc32dd5709eef3853.css" />
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5V17BEQ1ZJ"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-5V17BEQ1ZJ', { 'anonymize_ip': false });
+}
+</script>
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="從瓦數 坡度 踏頻和曲柄長來選擇自己適合的齒比"/>
+<meta name="twitter:description" content="2023 年還義剛結束，還義滿多變態的高山，也看到了今年的粉紅衫 Roglic 在最後的，皇后站與個人計時用了 40T 以上的小盤和飛輪，最後雖然有掉練，但還是成功逆轉拿下粉紅衫。 當他拿下粉紅衫之後就有人認為，PRO 都用這麼大了，那一般人是不是要更大，所以我們就來看一下齒比到底要多大比較好。 自行車其實就是個簡單機械，主要由輪軸和鏈條所組成傳動系統，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比，列下力學等式把兩式相除就可得到齒比。 從功率來計算踏頻跟齒比的關係，功的定義是施力與施力位移的內積，所以實際上功率跟施力還有踏頻的關係是，力臂跟施力先做外積 再跟踏頻做內積，再用我們前面得到的關係帶換掉，就可以得到功率與齒比和踏頻的關係了。當然這個功率還會跟當下的環境有關，例如總重、速率、坡度跟滾阻等許多變數，當然你能騎多快，又跟你的瓦數和重量跟坡度有關，所以實際解起來倒是沒這麼好解，可以參考一些數值方法去解出來。
+這個功能目前也已經做在路段齒比計算機裡面，歡迎各位去使用，聯絡粉絲專頁購買點數 https://operftrain.com/author/customer_gearRatio
+圖一 路段齒比計算機 https://operftrain.com/author/customer_gearRatio 首先我們先來看齒比到底是怎麼計算的，自行車其實就是個簡單機械，主要由輪軸和鏈條所組成傳動系統，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比，列下力學等式把兩式相除就可得到齒比。所以大盤與曲柄是一個輪軸，輪組與飛輪則是另一個輪軸，大盤與飛輪用鏈條連接，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比。
+因為輪軸是力矩相同，鍊條是受力相同，所以我們就可以分別列下力學等式，每個符號的代表意思如這表格所式，最後我們就把兩式相除就可得到齒比，這就是為什麼前面定義的齒比是大盤 / 飛輪的齒數，不過反正只要搞清楚左右邊是什麼就好了。
+大盤曲柄：F1R1 = fr1
+輪子飛輪：F2R2 = fr2
+所以可以得到 F1R1 = F2R2 * r1 / r2，正比於 r1 / r2
+人施力 F1&hellip; 輪子受力 F2&hellip; 大盤受力 f&hellip; 飛輪受力 f 曲柄長 R1&hellip; 輪子半徑 R2&hellip; 大盤半徑 r1&hellip; 飛輪半徑 r2 那麼既然跟力有關，我們就要從功率來計算，一般在看網路上的資料時去查功率跟施力的關係，都會直接跟你講這個公式，然後說相同功率，踏頻越高施力會越少，反之則越大。這就會有一個很奇怪的點，當用相同瓦數騎平路跟山路時，一定是平路速率高，但是你帶進公式時，就會發現爬坡的施力會比平路大但都還是同瓦數。 所以實際上我們就要從定義來看，功的定義是施力與施力位移的內積，所以其實還跟兩者的夾角有關，另一個大家常誤解的就是三點鐘方向力矩最大，這也不一定，因為你不確定力跟力臂是否垂直。所以實際上功率跟施力還有踏頻的關係長這樣，力臂跟施力先做外積，再跟踏頻做內積，再用我們前面得到的關係代換掉，就可以得到功率與齒比和踏頻的關係了，當然這個功率還會跟當下的環境有關，例如總重、速率、坡度跟滾阻等許多變數，當然你能騎多快，又跟你的瓦數和重量跟坡度有關，所以實際解起來倒是沒這麼好解。
+圖二 力與功率的關係 來看一下在某些條件固定下，不同坡度與瓦數的踏頻和齒比關係，總重量 73.3 kg
+坡度 0% 瓦數 250 W 坡度 8."/>
+
+    <meta property="og:title" content="從瓦數 坡度 踏頻和曲柄長來選擇自己適合的齒比" />
+<meta property="og:description" content="2023 年還義剛結束，還義滿多變態的高山，也看到了今年的粉紅衫 Roglic 在最後的，皇后站與個人計時用了 40T 以上的小盤和飛輪，最後雖然有掉練，但還是成功逆轉拿下粉紅衫。 當他拿下粉紅衫之後就有人認為，PRO 都用這麼大了，那一般人是不是要更大，所以我們就來看一下齒比到底要多大比較好。 自行車其實就是個簡單機械，主要由輪軸和鏈條所組成傳動系統，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比，列下力學等式把兩式相除就可得到齒比。 從功率來計算踏頻跟齒比的關係，功的定義是施力與施力位移的內積，所以實際上功率跟施力還有踏頻的關係是，力臂跟施力先做外積 再跟踏頻做內積，再用我們前面得到的關係帶換掉，就可以得到功率與齒比和踏頻的關係了。當然這個功率還會跟當下的環境有關，例如總重、速率、坡度跟滾阻等許多變數，當然你能騎多快，又跟你的瓦數和重量跟坡度有關，所以實際解起來倒是沒這麼好解，可以參考一些數值方法去解出來。
+這個功能目前也已經做在路段齒比計算機裡面，歡迎各位去使用，聯絡粉絲專頁購買點數 https://operftrain.com/author/customer_gearRatio
+圖一 路段齒比計算機 https://operftrain.com/author/customer_gearRatio 首先我們先來看齒比到底是怎麼計算的，自行車其實就是個簡單機械，主要由輪軸和鏈條所組成傳動系統，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比，列下力學等式把兩式相除就可得到齒比。所以大盤與曲柄是一個輪軸，輪組與飛輪則是另一個輪軸，大盤與飛輪用鏈條連接，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比。
+因為輪軸是力矩相同，鍊條是受力相同，所以我們就可以分別列下力學等式，每個符號的代表意思如這表格所式，最後我們就把兩式相除就可得到齒比，這就是為什麼前面定義的齒比是大盤 / 飛輪的齒數，不過反正只要搞清楚左右邊是什麼就好了。
+大盤曲柄：F1R1 = fr1
+輪子飛輪：F2R2 = fr2
+所以可以得到 F1R1 = F2R2 * r1 / r2，正比於 r1 / r2
+人施力 F1&hellip; 輪子受力 F2&hellip; 大盤受力 f&hellip; 飛輪受力 f 曲柄長 R1&hellip; 輪子半徑 R2&hellip; 大盤半徑 r1&hellip; 飛輪半徑 r2 那麼既然跟力有關，我們就要從功率來計算，一般在看網路上的資料時去查功率跟施力的關係，都會直接跟你講這個公式，然後說相同功率，踏頻越高施力會越少，反之則越大。這就會有一個很奇怪的點，當用相同瓦數騎平路跟山路時，一定是平路速率高，但是你帶進公式時，就會發現爬坡的施力會比平路大但都還是同瓦數。 所以實際上我們就要從定義來看，功的定義是施力與施力位移的內積，所以其實還跟兩者的夾角有關，另一個大家常誤解的就是三點鐘方向力矩最大，這也不一定，因為你不確定力跟力臂是否垂直。所以實際上功率跟施力還有踏頻的關係長這樣，力臂跟施力先做外積，再跟踏頻做內積，再用我們前面得到的關係代換掉，就可以得到功率與齒比和踏頻的關係了，當然這個功率還會跟當下的環境有關，例如總重、速率、坡度跟滾阻等許多變數，當然你能騎多快，又跟你的瓦數和重量跟坡度有關，所以實際解起來倒是沒這麼好解。
+圖二 力與功率的關係 來看一下在某些條件固定下，不同坡度與瓦數的踏頻和齒比關係，總重量 73.3 kg
+坡度 0% 瓦數 250 W 坡度 8." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jrphy.github.io/blog/post/how_to_choose_gear_ratio_with_some_power_and_cadence/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-06-25T10:55:10+08:00" />
+<meta property="article:modified_time" content="2023-06-25T10:55:10+08:00" />
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6262285358359079"
+     crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://jrphy.github.io/blog"><img class="app-header-avatar" src="/blog/avatar.jpg" alt="單車新幹線Cycle Formula" /></a>
+      <span class="app-header-title">單車新幹線Cycle Formula</span>
+      <p>騎乘技巧的理論分析</p>
+      <div class="app-header-social">
+        
+          <a href="https://jrphy.github.io/blog" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-home">
+  <title>Home</title>
+  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+          </a>
+        
+          <a href="https://jrphy.github.io/CycleFormula/" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-link">
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.youtube.com/channel/UCei7UffxFMaYKRgmO-GsMRQ" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-youtube">
+  <title>Youtube</title>
+  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+          </a>
+        
+          <a href="https://www.facebook.com/CycleFormula" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-facebook">
+  <title>Facebook</title>
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">從瓦數 坡度 踏頻和曲柄長來選擇自己適合的齒比</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jun 25, 2023
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+          <span id="busuanzi_container_page_pv">　閱覽數：<span id="busuanzi_value_page_pv"></span></span>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E6%9B%B2%E6%9F%84/">曲柄</a>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E5%9D%A1%E5%BA%A6/">坡度</a>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E8%B8%8F%E9%A0%BB/">踏頻</a>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E6%9B%B2%E6%9F%84/">曲柄</a>
+              <a class="tag" href="https://jrphy.github.io/blog/tags/%E9%BD%92%E6%AF%94/">齒比</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <font size="5">
+      <p>2023 年還義剛結束，還義滿多變態的高山，也看到了今年的粉紅衫 Roglic 在最後的，皇后站與個人計時用了 40T 以上的小盤和飛輪，最後雖然有掉練，但還是成功逆轉拿下粉紅衫。
+當他拿下粉紅衫之後就有人認為，PRO 都用這麼大了，那一般人是不是要更大，所以我們就來看一下齒比到底要多大比較好。
+自行車其實就是個簡單機械，主要由輪軸和鏈條所組成傳動系統，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比，列下力學等式把兩式相除就可得到齒比。
+從功率來計算踏頻跟齒比的關係，功的定義是施力與施力位移的內積，所以實際上功率跟施力還有踏頻的關係是，力臂跟施力先做外積 再跟踏頻做內積，再用我們前面得到的關係帶換掉，就可以得到功率與齒比和踏頻的關係了。當然這個功率還會跟當下的環境有關，例如總重、速率、坡度跟滾阻等許多變數，當然你能騎多快，又跟你的瓦數和重量跟坡度有關，所以實際解起來倒是沒這麼好解，可以參考一些數值方法去解出來。</p>
+<p>這個功能目前也已經做在路段齒比計算機裡面，歡迎各位去使用，聯絡粉絲專頁購買點數 <a href="https://operftrain.com/author/customer_gearRatio">https://operftrain.com/author/customer_gearRatio</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="gear_ratio_page.jpg" alt="圖一"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖一 路段齒比計算機 <a href="https://operftrain.com/author/customer_gearRatio">https://operftrain.com/author/customer_gearRatio</a></td>
+</tr>
+</tbody>
+</table>
+<p>首先我們先來看齒比到底是怎麼計算的，自行車其實就是個簡單機械，主要由輪軸和鏈條所組成傳動系統，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比，列下力學等式把兩式相除就可得到齒比。所以大盤與曲柄是一個輪軸，輪組與飛輪則是另一個輪軸，大盤與飛輪用鏈條連接，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比。</p>
+<p>因為輪軸是力矩相同，鍊條是受力相同，所以我們就可以分別列下力學等式，每個符號的代表意思如這表格所式，最後我們就把兩式相除就可得到齒比，這就是為什麼前面定義的齒比是大盤 / 飛輪的齒數，不過反正只要搞清楚左右邊是什麼就好了。<br>
+大盤曲柄：<em>F</em><sub>1</sub><em>R</em><sub>1</sub> = <em>fr</em><sub>1</sub><br>
+輪子飛輪：<em>F</em><sub>2</sub><em>R</em><sub>2</sub> = <em>fr</em><sub>2</sub><br>
+所以可以得到  <em>F</em><sub>1</sub><em>R</em><sub>1</sub>  = <em>F</em><sub>2</sub><em>R</em><sub>2</sub> * <em>r</em><sub>1</sub> / <em>r</em><sub>2</sub>，正比於  <em>r</em><sub>1</sub> / <em>r</em><sub>2</sub></p>
+<table>
+<thead>
+<tr>
+<th>人施力 <em>F</em><sub>1</sub>&hellip;</th>
+<th style="text-align:center">輪子受力 <em>F</em><sub>2</sub>&hellip;</th>
+<th style="text-align:center">大盤受力 <em>f</em>&hellip;</th>
+<th style="text-align:center">飛輪受力 <em>f</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>曲柄長 <em>R</em><sub>1</sub>&hellip;</td>
+<td style="text-align:center">輪子半徑 <em>R</em><sub>2</sub>&hellip;</td>
+<td style="text-align:center">大盤半徑 <em>r</em><sub>1</sub>&hellip;</td>
+<td style="text-align:center">飛輪半徑 <em>r</em><sub>2</sub></td>
+</tr>
+</tbody>
+</table>
+<p>那麼既然跟力有關，我們就要從功率來計算，一般在看網路上的資料時去查功率跟施力的關係，都會直接跟你講這個公式，然後說相同功率，踏頻越高施力會越少，反之則越大。這就會有一個很奇怪的點，當用相同瓦數騎平路跟山路時，一定是平路速率高，但是你帶進公式時，就會發現爬坡的施力會比平路大但都還是同瓦數。
+所以實際上我們就要從定義來看，功的定義是施力與施力位移的內積，所以其實還跟兩者的夾角有關，另一個大家常誤解的就是三點鐘方向力矩最大，這也不一定，因為你不確定力跟力臂是否垂直。所以實際上功率跟施力還有踏頻的關係長這樣，力臂跟施力先做外積，再跟踏頻做內積，再用我們前面得到的關係代換掉，就可以得到功率與齒比和踏頻的關係了，當然這個功率還會跟當下的環境有關，例如總重、速率、坡度跟滾阻等許多變數，當然你能騎多快，又跟你的瓦數和重量跟坡度有關，所以實際解起來倒是沒這麼好解。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="gear_ratio_power.jpg" alt="圖二"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖二 力與功率的關係</td>
+</tr>
+</tbody>
+</table>
+<p>來看一下在某些條件固定下，不同坡度與瓦數的踏頻和齒比關係，總重量 73.3 kg</p>
+<table>
+<thead>
+<tr>
+<th>坡度 0% 瓦數 250 W <strong><div style="width:280px"></strong></th>
+<th style="text-align:center">坡度 8.2% 瓦數 200 W <strong><div style="width:280px"></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>踏頻 60 rpm &ndash;&gt; 齒比 50/10&hellip;..</td>
+<td style="text-align:center">踏頻 60 rpm &ndash;&gt; 齒比 34/25</td>
+</tr>
+<tr>
+<td>踏頻 90 rpm &ndash;&gt; 齒比 50/15&hellip;..</td>
+<td style="text-align:center">踏頻 60 rpm &ndash;&gt; 齒比 34/38</td>
+</tr>
+</tbody>
+</table>
+<p>當然想增加踏頻，根據圖二的公式，還可以有以下的選擇</p>
+<ol>
+<li>提高瓦數 P ↑</li>
+<li>換短曲柄 <em>r</em><sub>1</sub>↓</li>
+<li>換小齒盤 <em>r</em><sub>1</sub>↓</li>
+<li>換大飛輪 <em>R</em><sub>2</sub>↑</li>
+<li>換小徑車 <em>R</em><sub>2</sub>↓</li>
+</ol>
+<p>當然公路賽事不可能去騎小徑車參賽的，而曲柄從 170 mm &ndash;&gt; 160 mm，踏頻則是 60 rpm &ndash;&gt; 64 rpm 變化不大，所以通常還是選擇改變齒比。</p>
+<p>那麼想降低齒比，要換大飛輪還是壓縮盤比較好??大家會覺得壓縮盤會比大飛輪輕，所以壓縮盤會比較好，但實際上還要考慮到練輪系統的阻力。
+降低齒比是為了增加踏頻 &ndash;&gt; 傳動系統的耗瓦會增加
+齒盤跟曲柄是輪軸關係 &ndash;&gt; 轉的圈數相同 &ndash;&gt; 圈數增加 &ndash;&gt; 耗瓦增加
+飛輪與齒盤以鏈條連接 &ndash;&gt; 雖然踏頻變高，鍊條速率也會變快，但是因為飛輪尺數也增加了，所以轉速不一定會增加，摩擦力也不一定會增加。<br>
+所以換小齒盤會讓阻力稍微增加，但換大飛輪就不一定。</p>
+<p>然而從重量上來看，若都是 12 速的飛輪與齒盤，若是考慮到尺速的綿密性，如果以前就是用 30T 的車友，換到 12 速的 11-34 就是多了片 34T 的齒片而已，從 30 換成 34 重量會多 50 g，而從 36 換成 34 重量則是會少 11 g，所以整體重量差異是差 66 g ，如果是爬武嶺 換小齒盤會比換飛輪均瓦少 0.2 W，所以應該是不會有綿密性的差異，但是多了一片救命齒可以用，所以整體來說還哪個都可以。</p>
+
+      </font>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
