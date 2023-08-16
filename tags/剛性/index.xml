@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>車架 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/blog/tags/%E8%BB%8A%E6%9E%B6/</link>
-    <description>Recent content in 車架 on 單車新幹線Cycle Formula</description>
+    <title>剛性 on 單車新幹線Cycle Formula</title>
+    <link>https://jrphy.github.io/blog/tags/%E5%89%9B%E6%80%A7/</link>
+    <description>Recent content in 剛性 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 17 Aug 2023 00:53:41 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E8%BB%8A%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Aug 2023 00:53:41 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E5%89%9B%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>車架剛性如何影響騎乘</title>
       <link>https://jrphy.github.io/blog/post/how_does_stiffness_of_frame_affect_your_riding/</link>
@@ -23,18 +23,6 @@
 圖三 車架剛性測試[5] 而德國的 tour 雜誌也會對許多車架去做剛性測試，就有網友把那些資料整理成一個表格，從這個表格來看可以明顯地知道，不管是框煞或碟煞、還是空力跟爬坡車，並不存在哪種車會比較硬的關係，可以看到最新的斯特拉也沒有舊的瑞克多硬，大概只有空力車坐管數據上比較硬，因為空力車坐管截面積通常會比較大的關係。而 EMONDA 比 MADONE 硬則是因為 ISP 的關係，然後拿下多次環法冠軍的 F8 除了坐管外，BB 與前叉的部分也沒有特別硬，SL7 DISC 與 SL5 相比也沒有更硬，其他更詳細的數據可以到以下網址，或是自行去購買 tour 雜誌來觀看。
 https://weightweenies.starbike.com/forum/viewtopic.php?f=3&amp;amp;t=165586
 四、車架軟硬的耗瓦 那麼車架軟硬到底會怎麼影響騎乘呢，我們先來看這種可以鎖前避震的城市車種，這種車在騎較崎嶇的路面時可以將避震打開，就可以把來自路面的震動抵銷掉部分，然後騎在路面較好的路上就可以把避震鎖起來，所以騎乘起來就會比較舒適。當然當在發力加速時沒有鎖避震的話，就會有部分的力傳到避震上被抵銷掉，就體感上來講會覺得沒這麼靈敏，所以看到下方影片，力仍然會傳遞過去但是會慢一點，當然也有一小部分的力會被抵銷。</description>
-    </item>
-    
-    <item>
-      <title>器材與服裝影響騎乘的比例</title>
-      <link>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</link>
-      <pubDate>Mon, 22 Aug 2022 09:35:39 +0800</pubDate>
-      
-      <guid>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</guid>
-      <description>在騎乘時，當坡度越陡，重量影響的比例就越高，對於人+車總重 79 kg 的車手來說，在爬2 % 的坡時以 300 W 的輸出，那麼重力與空力的影響比大致一樣，超過這坡度時重量影響就更多，若以 200 W，則大概在 1.5% 的坡上大致一樣。而阻力通常占比非常小，大概是10% 左右，但就 200 W 而言也是會要消耗 20 W。所以主要的影響就是重量與空力，這部分可以看頻道另一部影片，裡面有詳細的介紹，可以點右上方的資訊欄去看，以下就分成這兩個來討論。
-先來看重量的影響比例，這邊就分成人的重量與其他物品的重量，其他物品就包含車、安全帽、卡鞋、車衣等。
-表一：各部位重量範圍 人重 車重 人身部品 重量範圍 (kg) 45~85 6.5~8.5 0.8~1.2 所以分母就放總重，分子就放人的重量，然後再看一下車手的體重範圍就，可以算出人的重量所佔的比例。當其他物品很輕人很重的情況，人的占比就很大，可到 92.1%，反過來說人很輕，其他重量很重就是人占比最小的情況，但還是有佔大概82%左右，以台灣的情況一般而言人大概是佔88.4% 左右。
-總重 人占比 人占比最大 85 kg 騎 6.5 kg 車 + 0.8 kg 裝備 92.1% 人占比最小 45 kg 騎 6.5 kg 車 + 1.2 kg 裝備 82.3% 一般情況 65 kg 騎 7.5 kg 車 + 1.0 kg 裝備 88.</description>
     </item>
     
   </channel>
