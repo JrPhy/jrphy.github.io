@@ -6,7 +6,23 @@
     <description>Recent content in 分析 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 17 Aug 2023 00:53:41 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/categories/%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Sep 2023 09:30:50 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/categories/%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何根據自己的能力選擇齒比與雙盤或單盤</title>
+      <link>https://jrphy.github.io/blog/post/gear_and_1x_group/</link>
+      <pubDate>Tue, 12 Sep 2023 09:30:50 +0800</pubDate>
+      
+      <guid>https://jrphy.github.io/blog/post/gear_and_1x_group/</guid>
+      <description>2023 年的環法與環義都是 jumbo 車隊拿下總冠軍，且兩位車手在許多大山段也選擇使用單盤系統，當然贊助商是沒有說車手一定要使用單盤，不過選手在丘陵與大山段是選擇了單盤。而單盤與雙盤也有各自的優缺點，實際上這也代表兩家公司著重的點不同，所以其實也代表兩家公司的商業和技術考量，畢竟通常會去申請專利卡住對方發展。
+一、官方資訊 那麼我們先從一些官方資訊來做比較，首先先來看齒比的部分，雙盤系統速別是單盤兩倍，但實際上會有重複的齒比，所以大概多10~11 速。
+Shimano：大盤 53/39~50/34，飛輪 11/34 (7100 有 11/36 ) SRAM：2X 46/33T, 48/35T, 50/37T、1X 36, 38, 40, 42, 44, 46, 48, 50
+SRAM 官方提供超過 1 的齒比 不過就官方所提供的齒比來說，Shimano 提供的比較少 SRAM 則是比較多選擇，而且 SRAM 是只要他家出的產品幾乎都可混搭。就齒比來看 SRAM 官方也提供了超過 1 的齒比，對於一般的市民來說才是比較親民的，否則對於我們來說 齒比不到 1 爬大山或陡坡，通常踏頻就會掉到 70 以下最後就定桿。
+二、重量差異 雙盤換單盤因為少了變速跟前變，但是飛輪通常會換比較大顆，不過總的來看 SRAM 自家同級的變速系統，換成單盤還是會輕個 100~200 克。然後就不同系統上的重量來說，因為 Shimano 系統還會有多變速線，以及另外的電池座與電池沒有算在裡面，所以相同等級的重量應該是不會差太多。 詳細重量可參考這篇
+三、單盤優點 然而單盤系統不論是結構與使用上都較雙盤單純，在使用單盤就不用去考慮前後變的時間差，以前機械變速這樣變很容易掉鍊，不過現在大多都是電變就比較少這問題。在使用上也因為只要管後變，所以實際騎乘時也不用去管要變大盤還小盤，當然對於消費者而言最重要的就是便宜，單盤系統在價錢上也便宜了不少。
+四、雙盤優點 而單盤系統在整體結構上會使得鍊條變的更斜，所以在能量耗損上會比雙盤多更多，鍊條越斜每目之間的摩擦力就會越大。而 Velo 和 CS在2019/06 做了測試，對於不同的系統而言 Shimano 的傳動效率較好，當然除了雙盤系統鍊條不會太斜外，大齒盤的齒數也會比較多 所以效率也會比較高，所以如果坡度不是太陡的話可以盡量掛大盤騎。
+五、瓦數與齒比 那麼來看一下單盤與雙盤的齒比差距，這邊就是以 50-34/11-34 跟 44/10-44 為例，可以看到除了最重與最輕的齒比變化差不多外，其餘的差距大概是雙盤飛輪三檔等於單盤飛輪一檔，這邊再將齒比相近的組別抓出來，發現雙盤有 5 組的齒比是相近的。所以實際上就這種大盤根飛輪的組合，可用的齒比只有 19 組而已，另外從兩家的飛輪齒數可以發現，在中間段齒數變化上可以說幾乎完全一樣，所以在雙盤通常都是強調齒比的綿密性，那麼我們這邊也可以來看一下齒比跟瓦數的關係。</description>
+    </item>
+    
     <item>
       <title>車架剛性如何影響騎乘</title>
       <link>https://jrphy.github.io/blog/post/how_does_stiffness_of_frame_affect_your_riding/</link>
