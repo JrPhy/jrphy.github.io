@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>坡度 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/blog/tags/%E5%9D%A1%E5%BA%A6/</link>
+    <link>https://blog-4a7.pages.dev/tags/%E5%9D%A1%E5%BA%A6/</link>
     <description>Recent content in 坡度 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 25 Jun 2023 10:55:10 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E5%9D%A1%E5%BA%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jun 2023 10:55:10 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E5%9D%A1%E5%BA%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>從瓦數 坡度 踏頻和曲柄長來選擇自己適合的齒比</title>
-      <link>https://jrphy.github.io/blog/post/how_to_choose_gear_ratio_with_some_power_and_cadence/</link>
+      <link>https://blog-4a7.pages.dev/post/how_to_choose_gear_ratio_with_some_power_and_cadence/</link>
       <pubDate>Sun, 25 Jun 2023 10:55:10 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/how_to_choose_gear_ratio_with_some_power_and_cadence/</guid>
+      <guid>https://blog-4a7.pages.dev/post/how_to_choose_gear_ratio_with_some_power_and_cadence/</guid>
       <description>2023 年還義剛結束，還義滿多變態的高山，也看到了今年的粉紅衫 Roglic 在最後的，皇后站與個人計時用了 40T 以上的小盤和飛輪，最後雖然有掉練，但還是成功逆轉拿下粉紅衫。 當他拿下粉紅衫之後就有人認為，PRO 都用這麼大了，那一般人是不是要更大，所以我們就來看一下齒比到底要多大比較好。 自行車其實就是個簡單機械，主要由輪軸和鏈條所組成傳動系統，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比，列下力學等式把兩式相除就可得到齒比。 從功率來計算踏頻跟齒比的關係，功的定義是施力與施力位移的內積，所以實際上功率跟施力還有踏頻的關係是，力臂跟施力先做外積 再跟踏頻做內積，再用我們前面得到的關係帶換掉，就可以得到功率與齒比和踏頻的關係了。當然這個功率還會跟當下的環境有關，例如總重、速率、坡度跟滾阻等許多變數，當然你能騎多快，又跟你的瓦數和重量跟坡度有關，所以實際解起來倒是沒這麼好解，可以參考一些數值方法去解出來。
 這個功能目前也已經做在路段齒比計算機裡面，歡迎各位去使用，聯絡粉絲專頁購買點數 https://operftrain.com/author/customer_gearRatio
 圖一 路段齒比計算機 https://operftrain.com/author/customer_gearRatio 首先我們先來看齒比到底是怎麼計算的，自行車其實就是個簡單機械，主要由輪軸和鏈條所組成傳動系統，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比，列下力學等式把兩式相除就可得到齒比。所以大盤與曲柄是一個輪軸，輪組與飛輪則是另一個輪軸，大盤與飛輪用鏈條連接，其中鍊條每一目的長度 p 幾乎是一樣的，所以我們就可以得到齒數與半徑的關係，所以齒輪的齒數就會跟齒輪的半徑成正比。

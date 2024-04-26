@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>能量系統 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/blog/tags/%E8%83%BD%E9%87%8F%E7%B3%BB%E7%B5%B1/</link>
+    <link>https://blog-4a7.pages.dev/tags/%E8%83%BD%E9%87%8F%E7%B3%BB%E7%B5%B1/</link>
     <description>Recent content in 能量系統 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 30 Mar 2023 21:12:03 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E8%83%BD%E9%87%8F%E7%B3%BB%E7%B5%B1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Mar 2023 21:12:03 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E8%83%BD%E9%87%8F%E7%B3%BB%E7%B5%B1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>為什麼踏頻要盡量維持 90 rpm</title>
-      <link>https://jrphy.github.io/blog/post/why_is_cadence_90_rpm_popular_now/</link>
+      <link>https://blog-4a7.pages.dev/post/why_is_cadence_90_rpm_popular_now/</link>
       <pubDate>Thu, 30 Mar 2023 21:12:03 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/why_is_cadence_90_rpm_popular_now/</guid>
+      <guid>https://blog-4a7.pages.dev/post/why_is_cadence_90_rpm_popular_now/</guid>
       <description>一、踩踏的力學分析 踩踏的功率跟所施的力和踏頻有關，如果輸出的功率跟曲柄長度都固定，那麼踏頻越高所需要的力就越小，而加重齒比會讓轉速變慢，維持高踏頻。當加重齒比後，會讓力的變化沒那麼大。
 當我們在踩踏時 I, II 象限是主要施力，III, IV象限就是把腳帶回 I, II 象限而已，假設右腳往下 在這邊稱往下的腳為前腳，那左腳就是往上，在這邊稱為後腳，當前腳往下踩時同時也是把後腳往上推，所以有部分的功率是將後腳上推，所以在 III, IV 象限通常是負功，當作拉提後可以降低負功的值。
 所以就發力的觀點來看，其實是後腳分擔前腳的部份的力，而向下踩時通常是用股四頭肌，拉提時通常是用到大腿後側與小腿肌肉，若後腳有主動往上，那就可以分攤前腳的力，但是拉提不太好施力，建議可以輕輕抬起就好。

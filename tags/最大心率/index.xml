@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>最大心率 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/blog/tags/%E6%9C%80%E5%A4%A7%E5%BF%83%E7%8E%87/</link>
+    <link>https://blog-4a7.pages.dev/tags/%E6%9C%80%E5%A4%A7%E5%BF%83%E7%8E%87/</link>
     <description>Recent content in 最大心率 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 24 May 2023 10:39:09 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E6%9C%80%E5%A4%A7%E5%BF%83%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 May 2023 10:39:09 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E6%9C%80%E5%A4%A7%E5%BF%83%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最大心律公式怎麼來的 哪個公式比較準</title>
-      <link>https://jrphy.github.io/blog/post/max_hr/</link>
+      <link>https://blog-4a7.pages.dev/post/max_hr/</link>
       <pubDate>Wed, 24 May 2023 10:39:09 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/max_hr/</guid>
+      <guid>https://blog-4a7.pages.dev/post/max_hr/</guid>
       <description>一、歷史 最大心率公式大家比較常聽到的就是 220 – 年齡，基本上這個公式幾乎已經變成定律了，但真正使用上就會發現準確度有待考驗，且實際上這個公式其實並非從原始實驗資料得出，我們可以先看一下有關最大心率公式的論文。通常看這種論文有幾個地方要注意，就是樣本數、族群、決定係數以及標準差，除了標準差外，其餘數值都是越大越好。從相關論文找到的公式有 30 條以上，如圖一所式，當然還有更複雜的沒有列出來，這篇論文是 2002 年所整理的，相信如果是 2023 年整理得還會有更多條，220 – 年齡 這公式存在很久了 但卻沒出現在上面，那麼我們就先來看這條公式是如何誕生的。
 圖一：一些最大心率的來源及公式[1] 這個式子可以追溯到 1970 年 FOX 與Haskell 兩人合著的論文中，但因為找不到論文可看，所以我也不知道怎麼提出的，不過根據這篇論文，原始資料應該就是圖二，虛線是 220 – 年齡 但回歸直線應該是黃線才對。而有關最大心率的公式最早是由，1938 年 Robinson 研究所提出，當然不論是哪一篇研究，幾乎任何一篇論文都可以看到圖二的趨勢，也就是做完最大攝氧量測驗時，年齡與最大心率會有負相關的趨勢，所以現在任何一條公式都會與年齡有關，問過一些醫學背景的人給的解釋，是因為心肌的老化造成最大心跳降低。
 圖二：220 – 年齡[1] 那麼去研究 220 – 年齡的這位作者有什麼評論，即便是到 2023 年仍然沒有個可接受的公式，不過在當時是推薦使用 Inbar 得到的公式，但不管用哪個反正都差很多就是了，所以最好的方式還是去做測驗。通常去做最大攝氧量測驗且有達標的話，心率通常會非常接近你的最大心率，所以如果你真的想要得到一個準確的最大心率，測驗還是免不了的。像我自己就有測過，之後在訓練時心跳都幾乎不會超過測驗的值，當然對於不同的運動，例如自行車與跑步，能操出的最大心率也不同，通常來說跑步的最大心率會高於自行車。所以跑步所得到的最大心率，會更接近真實的最大心率，但這還跟熟練度有關，例如一個自行車手所測到的最大心率，可能騎自行車測的會比跑步還要高。

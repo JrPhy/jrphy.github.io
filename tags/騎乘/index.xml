@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>騎乘 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/blog/tags/%E9%A8%8E%E4%B9%98/</link>
+    <link>https://blog-4a7.pages.dev/tags/%E9%A8%8E%E4%B9%98/</link>
     <description>Recent content in 騎乘 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 12 Sep 2023 09:30:50 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E9%A8%8E%E4%B9%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Sep 2023 09:30:50 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E9%A8%8E%E4%B9%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何根據自己的能力選擇齒比與雙盤或單盤</title>
-      <link>https://jrphy.github.io/blog/post/gear_and_1x_group/</link>
+      <link>https://blog-4a7.pages.dev/post/gear_and_1x_group/</link>
       <pubDate>Tue, 12 Sep 2023 09:30:50 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/gear_and_1x_group/</guid>
+      <guid>https://blog-4a7.pages.dev/post/gear_and_1x_group/</guid>
       <description>2023 年的環法與環義都是 jumbo 車隊拿下總冠軍，且兩位車手在許多大山段也選擇使用單盤系統，當然贊助商是沒有說車手一定要使用單盤，不過選手在丘陵與大山段是選擇了單盤。而單盤與雙盤也有各自的優缺點，實際上這也代表兩家公司著重的點不同，所以其實也代表兩家公司的商業和技術考量，畢竟通常會去申請專利卡住對方發展。
 一、官方資訊 那麼我們先從一些官方資訊來做比較，首先先來看齒比的部分，雙盤系統速別是單盤兩倍，但實際上會有重複的齒比，所以大概多10~11 速。
 Shimano：大盤 53/39~50/34，飛輪 11/34 (7100 有 11/36 ) SRAM：2X 46/33T, 48/35T, 50/37T、1X 36, 38, 40, 42, 44, 46, 48, 50
@@ -25,10 +25,10 @@ SRAM 官方提供超過 1 的齒比 不過就官方所提供的齒比來說，Sh
     
     <item>
       <title>車架剛性如何影響騎乘</title>
-      <link>https://jrphy.github.io/blog/post/how_does_stiffness_of_frame_affect_your_riding/</link>
+      <link>https://blog-4a7.pages.dev/post/how_does_stiffness_of_frame_affect_your_riding/</link>
       <pubDate>Thu, 17 Aug 2023 00:53:41 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/how_does_stiffness_of_frame_affect_your_riding/</guid>
+      <guid>https://blog-4a7.pages.dev/post/how_does_stiffness_of_frame_affect_your_riding/</guid>
       <description>一、強度跟剛性 強度一般是對於某個材料去做測量，例如碳纖、鈦、鋁等自行車架常見的材料。當然不同的材料會有不同的強度，這個我們等等可以來看數據。而材料的強度就是能承受不斷裂，或是永久形變的最大強度，這邊的強度是壓力，也就是會跟作用的面積有關，當然對於消費者而言會直接跟你說個重量，也就是車手如果體重超過這個重量，那在使用這個車架或輪組就會很危險，另外如果瓦數夠高的話，那你也要在意材料強度，因為瓦數就是瞬間的施力，可能會把車架踩爆。而剛性則是針對某個物體做一些測試，例如拉伸、扭轉等，看當下的施力跟形變，剛性測試的力或力矩通常不會太大，也就是會讓該物體的形變恢復，不會造成永久形變或是破壞，所以相較於剛性，個人覺得強度比較重要。
 這邊就是自行車車架常用的材料強度，可以看到碳纖強度幾乎接近鈦車[1]，但是密度卻很低，就表示碳車可以做到很輕，所以現在碳纖材料就會出現在各種物品中。而單純就鈦合金跟碳纖維的數據看起來，碳車跟鈦車除了重量差異外其餘差不多，如果車架完全一樣且其餘裝備也一樣，只有材料不同的話騎平路感覺應該也差不多。
 材料 抗拉強度 (MPa) 彈性係數 (GPa) 密度 (kg/mm2) 碳纖維 900 120 1.4 鋁合金 570 73 2.7 鈦合金 950 110 4.4 而有篇論文就利用有限元素法[2]，將相同形狀但是把材料換掉後，看看車架的形變與受力最大的地方，這篇論文是在討論垂直剛性，是假設正上方有約 250 公斤的車手，可以看到座管上方受到的力最大，而對於不同材料而言，最大形變量，也只有 0.5 mm 左右而已，並不是很大，對於碳車而言更只有不到 0.2 mm。
@@ -43,10 +43,10 @@ https://weightweenies.starbike.com/forum/viewtopic.php?f=3&amp;amp;t=165586
     
     <item>
       <title>為什麼踏頻要盡量維持 90 rpm</title>
-      <link>https://jrphy.github.io/blog/post/why_is_cadence_90_rpm_popular_now/</link>
+      <link>https://blog-4a7.pages.dev/post/why_is_cadence_90_rpm_popular_now/</link>
       <pubDate>Thu, 30 Mar 2023 21:12:03 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/why_is_cadence_90_rpm_popular_now/</guid>
+      <guid>https://blog-4a7.pages.dev/post/why_is_cadence_90_rpm_popular_now/</guid>
       <description>一、踩踏的力學分析 踩踏的功率跟所施的力和踏頻有關，如果輸出的功率跟曲柄長度都固定，那麼踏頻越高所需要的力就越小，而加重齒比會讓轉速變慢，維持高踏頻。當加重齒比後，會讓力的變化沒那麼大。
 當我們在踩踏時 I, II 象限是主要施力，III, IV象限就是把腳帶回 I, II 象限而已，假設右腳往下 在這邊稱往下的腳為前腳，那左腳就是往上，在這邊稱為後腳，當前腳往下踩時同時也是把後腳往上推，所以有部分的功率是將後腳上推，所以在 III, IV 象限通常是負功，當作拉提後可以降低負功的值。
 所以就發力的觀點來看，其實是後腳分擔前腳的部份的力，而向下踩時通常是用股四頭肌，拉提時通常是用到大腿後側與小腿肌肉，若後腳有主動往上，那就可以分攤前腳的力，但是拉提不太好施力，建議可以輕輕抬起就好。
@@ -58,10 +58,10 @@ https://weightweenies.starbike.com/forum/viewtopic.php?f=3&amp;amp;t=165586
     
     <item>
       <title>HIIT 課表要如何安排 能減比較多的脂肪嗎 智慧訓練台如何操作 HIIT 課表</title>
-      <link>https://jrphy.github.io/blog/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</link>
+      <link>https://blog-4a7.pages.dev/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</link>
       <pubDate>Sat, 31 Dec 2022 20:53:15 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</guid>
+      <guid>https://blog-4a7.pages.dev/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</guid>
       <description>一、最大攝氧量與心肺的關係 在運動科學中常常會談論最大攝氧量 VO2max，最大攝氧量從生理學來看就是，組織細胞所能消耗或利用氧的最高值，而在身體裡面氧氣會藉由血液運送，而血液是心臟做泵浦運動送到全身，所以最大攝氧量又等同於，心臟輸出血液的量 X 動脈靜脈血氧差，這個式子又稱作 Fick equation，有興趣的可以自行去找其他資料看他的推導。
 所以這邊我們將最大攝氧量與心輸出連結起來，才會說最大攝氧量代表一個人的心肺能力，在醫學與健康方面也發現，最大攝氧量與心血管疾病發病率成負相關，也就是最大攝氧量越高，會有高血壓等心血管疾病的機率越低。
 而我們在測驗最大攝氧量時，也只需要量測吸入與呼出的氧氣量即可，不需要去測心臟血液的輸出量。
@@ -72,10 +72,10 @@ I (%VO2max) T(min) t*(min) n Short HIIT 100 1 4 12 Medium HIIT 90 2 3 12 Long HI
     
     <item>
       <title>改變曲柄長度會如何影響騎乘</title>
-      <link>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</link>
+      <link>https://blog-4a7.pages.dev/post/how_does_crank_length_affect_riding/</link>
       <pubDate>Thu, 28 Jul 2022 11:00:36 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/how_does_crank_length_affect_riding/</guid>
+      <guid>https://blog-4a7.pages.dev/post/how_does_crank_length_affect_riding/</guid>
       <description>一、曲柄長度與齒比 單車主要就兩種簡單機械，輪軸與齒輪。齒輪只會改變受力方向，不改變受力大小，例如大盤跟飛輪就是此種關係。輪軸則是槓桿的變形，例如大盤與曲柄，和飛輪與輪子，所以可以用力矩方程式來計算。首先先來看曲柄長度與齒比的關係，這邊我們就把各器材的受力與半徑分配符號如表一
 人施力 F1 輪子受力 F2 大盤受力 f 飛輪受力 f 曲柄長 R1 輪子半徑 R2 大盤半徑 r1 飛輪半徑 r2 表一：個符號代表意義
 所以可以列出力矩方程式

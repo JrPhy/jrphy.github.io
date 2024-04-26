@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技巧 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/blog/tags/%E6%8A%80%E5%B7%A7/</link>
+    <link>https://blog-4a7.pages.dev/tags/%E6%8A%80%E5%B7%A7/</link>
     <description>Recent content in 技巧 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 18 Jun 2022 08:57:39 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jun 2022 08:57:39 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>過彎壓車帥又快</title>
-      <link>https://jrphy.github.io/blog/post/lean_your_bike_when_turning/</link>
+      <link>https://blog-4a7.pages.dev/post/lean_your_bike_when_turning/</link>
       <pubDate>Sat, 18 Jun 2022 08:57:39 +0800</pubDate>
       
-      <guid>https://jrphy.github.io/blog/post/lean_your_bike_when_turning/</guid>
+      <guid>https://blog-4a7.pages.dev/post/lean_your_bike_when_turning/</guid>
       <description> 不論是自行車或是機車，在高速過彎時常常看到車手會將人與車往同一邊傾斜，然後就快速的過彎。那麼究竟壓車除了帥以外還有什麼優點的？設總重量為 W = mg，輪胎與地面靜摩擦係數為 μ，人與車重心和輪胎接觸點的連線，與鉛直線的夾角為 x，在此稱為傾角。轉彎當下的力圖如圖一，可知水平與鉛直方向合力為零，所以正向力與重力大小相等 mg = N，摩擦力與向心力大小相等 FC = mv 2/ R = fs。
 再由合力矩 fs Lcosx = NLsinx 可以得到靜摩擦力等於正向力乘上tanx。所以將上述的關係帶進來可得，傾角只與摩擦係數有關，跟重量那些無關。當傾角越大，所受到的摩擦力也越大。當為最大靜摩擦力時，μmg = mgtanx &amp;ndash;&amp;gt; μ = tanx ，那麼再根據向心力可知過彎速度也越快，所以過彎壓車除了帥之外還可以讓你過彎更快，當然還是需要自行注意道路狀況。
 mv 2/ R = mgtanx &amp;ndash;&amp;gt; v 2 = gR tanx ∝ R tanx
