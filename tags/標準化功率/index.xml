@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>標準化功率 on 單車新幹線Cycle Formula</title>
-    <link>https://blog-4a7.pages.dev/tags/%E6%A8%99%E6%BA%96%E5%8C%96%E5%8A%9F%E7%8E%87/</link>
+    <link>https://jrphy.github.io/blog/tags/%E6%A8%99%E6%BA%96%E5%8C%96%E5%8A%9F%E7%8E%87/</link>
     <description>Recent content in 標準化功率 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 10 Nov 2022 23:07:05 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E6%A8%99%E6%BA%96%E5%8C%96%E5%8A%9F%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 23:07:05 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E6%A8%99%E6%BA%96%E5%8C%96%E5%8A%9F%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CP 與 FTP 的介紹與生理意義</title>
-      <link>https://blog-4a7.pages.dev/post/cp_and_ftp/</link>
+      <link>https://jrphy.github.io/blog/post/cp_and_ftp/</link>
       <pubDate>Thu, 10 Nov 2022 23:07:05 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/cp_and_ftp/</guid>
+      <guid>https://jrphy.github.io/blog/post/cp_and_ftp/</guid>
       <description>&amp;hellip; 一、運動科學中乳酸閥值的定義 在運動科學中通常會使用，最大攝氧量與乳酸閥值及其他數據，然後搭配其他數據，例如跑步為速度 自行車為功率，來去衡量一個運動員的能力。 乳酸閥值在運動科學上有25種的定義，這邊大致上分三類
 乳酸濃度達到 4 mmol/L 就稱作乳酸閥值，又稱作 OBLA
 另一個是是最大可維持的穩態乳酸，簡稱MLSS
@@ -28,10 +28,10 @@ FTP 的定義並沒有說明能維持多久的時間，那為什麼許多人都�
     
     <item>
       <title>標準化功率的數學及其意義</title>
-      <link>https://blog-4a7.pages.dev/post/np_and_its_meaning/</link>
+      <link>https://jrphy.github.io/blog/post/np_and_its_meaning/</link>
       <pubDate>Fri, 29 Apr 2022 15:14:42 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/np_and_its_meaning/</guid>
+      <guid>https://jrphy.github.io/blog/post/np_and_its_meaning/</guid>
       <description>在做訓練時我們會預期這次訓練的量，而訓練的量即為此次運動的強度乘上時間。強度在自行車的世界有功率的話都以 功率為優先 ，並會以其他數據為輔。然而強度則會根據每個人能力不同制定客製化訓練，所以會採用 相對標準 。而自行車在騎乘時功率變化很大，所以會採用 加權平均 的方式會比算術平均還更能反映真實期程情況，但是平均功率也是能看到如做功資訊，在騎乘時對於補給策略來說很重要。
 自行車功率訓練自從 SRM 開發了第一個移動式功率計後，現在要練車的人幾乎都備有功率計，最重要的就是在騎乘完後的數據分析。現在也有許多的軟體會自動幫你計算，但若是剛開始入門會覺得眼花撩亂，如這圖一所示，這邊就先從標準化功率介紹。
 圖一：使用功率計後軟體會多出 NP, IF, VI, TSS, WORK 等資訊 一次訓練週期中課程不會只有一種，在這邊就拿兩種不一樣的課程來看，一個是接近 HIIT 如圖二，另一個則是穩定騎乘如圖三，有騎過這兩種課程的人都知道，若這兩次騎乘的平均瓦數與時間相同，一定是左圖的課程比較累，所以在訓練量的計算上若是使用平均功率，就不能反應這種情況。

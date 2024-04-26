@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>爬坡 on 單車新幹線Cycle Formula</title>
-    <link>https://blog-4a7.pages.dev/tags/%E7%88%AC%E5%9D%A1/</link>
+    <link>https://jrphy.github.io/blog/tags/%E7%88%AC%E5%9D%A1/</link>
     <description>Recent content in 爬坡 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 26 May 2023 14:34:11 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E7%88%AC%E5%9D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 May 2023 14:34:11 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E7%88%AC%E5%9D%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重量減輕爬坡能快多少 以武嶺 塔塔加 太平山為例</title>
-      <link>https://blog-4a7.pages.dev/post/how_faster_as_getting_lighter/</link>
+      <link>https://jrphy.github.io/blog/post/how_faster_as_getting_lighter/</link>
       <pubDate>Fri, 26 May 2023 14:34:11 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/how_faster_as_getting_lighter/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_faster_as_getting_lighter/</guid>
       <description>在騎乘自行車大家最常討論的就是整車多輕，當然台灣地勢起伏大，車越輕當然也越好，那我們就來算一下在這些路段重量減輕可以快多少。這邊的計算假設就是換裝備，只有重量上的差異，其餘如形狀等地都沒差，像換變速就是形狀一樣但重量變輕，或是同車款的二級鋁車換一級碳車等方式，然後其他的如天氣，路面狀況等都一樣去計算。當然重量減輕那麼速度就一定會變快，速度變快風阻就會變大，所以實際上的減少時間會比算出來的再少一點。
 首先就先來看到台灣的熱門路線-西進武嶺，這邊基本上都是以總重量 65 kg 然後加 200 g，算了幾個不同的瓦數來看看結果如何，可以看到對於相同瓦數而言，重量減少與換到的時間增加幾乎是線性的，有些許不同是因為直接將結果進位了，如果瓦數降低則得到的效益會比較大，主要是因為瓦數低速率就慢，所以風阻也降低，這時重量的效應就比較大，然後從計算結果來看，如果西進要三小時內，就是均瓦除以總重大約要有推力 4 左右，如果是三個半小時的話則大約要有推力 2.8 左右。
 表一：西進武嶺，不同重量與瓦數算出來的時間
@@ -21,10 +21,10 @@
     
     <item>
       <title>爬坡用空力車、全能車、爬坡車哪台騎比較快 碟煞車會比框煞慢多少 理論模擬告訴你</title>
-      <link>https://blog-4a7.pages.dev/post/how_to_select_aero_and_weight/</link>
+      <link>https://jrphy.github.io/blog/post/how_to_select_aero_and_weight/</link>
       <pubDate>Fri, 13 Jan 2023 21:01:32 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/how_to_select_aero_and_weight/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_to_select_aero_and_weight/</guid>
       <description>以前總是有許多的文章在討論要空力車還是爬坡車，而大多數的廠商也是兩種車都出，當然也是有少數如 PINARELLO 只有一種車，現在則是越來越多車廠有出全能車，甚至指出全能車不再分空力跟爬坡，那麼我們來看一下空力車架與全能車架的差異。
 我們先來看 Cervelo 的空力車與全能車，把 S5 跟 Soloist 兩張圖疊在一起可以發現，就形狀上看起來幾乎是一樣的，也可以看到後叉下移的位置跟空力車一樣，只差在空力車架側面看起來比較粗壯，而全能車的管型則是採用 D 型管，所以側面看起來跟爬坡車差異不大，主要來說就是車架形狀跟空力車一樣，車架管型比較貼近爬坡車。
 圖一：S5 與 Sololist 就性能方面 Cervelo 的官方說法則是，Soloist 大概比 S5 輕 250 g，也大概比 R5 重 250 g，空力則是比 S5 慢 190 g，而比 R5 快 126 g，這個空力單位可以去看頻道中另一部影片，有介紹一些空力表示法跟怎麼來的，當然空力減少多少一般人比較難去驗證，即便是用電腦跑模擬都是用商用軟體，而且通常也要跑很久，所以相較於重量大家很難有感覺，明顯之所以叫全能車，就是介於兩者之間，可以想成從蹺蹺板的兩端往中間走。
@@ -33,10 +33,10 @@
     
     <item>
       <title>爬坡時重力與空力效應的比較</title>
-      <link>https://blog-4a7.pages.dev/post/aero_vs_weight_when_climbing/</link>
+      <link>https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/</link>
       <pubDate>Sun, 01 May 2022 16:19:19 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/aero_vs_weight_when_climbing/</guid>
+      <guid>https://jrphy.github.io/blog/post/aero_vs_weight_when_climbing/</guid>
       <description>空氣力學對於自行車來說，速度越快阻力就越大。而重力則是在坡度越陡時影響越大。那麼這兩個效應到底在什麼情況下，誰的影響比較大呢？在此我們會有一些假設，這些假設並不會對計算結果造成太大的誤差，如過程中 總重量、重力加速度和摩擦係數為定值 。另外也有限制我們的計算情境如下
 全程只有一個人獨騎 過程中不落地 無風的晴天 僅使用平均坡度計算 功率可以穩定輸出 所以根據假設，把剩下沒考慮到的叫做 Fothers。所以當人施力的時候會受到這四個力個抵抗，若是當下的速率為 v，那麼我們將個別的力算出來再乘上速率，就可以得到每個力所消耗的功率。在此我們將重力與空氣阻力所產生的功率加起來放在分母，然後分子分別放上重力與空氣阻力的功率，就分別得到 Pa 與 Pg ，代表的是分別是空氣阻力和重力分別佔這兩個的比重多少，且兩個和為 1，所以若其中一個大於0.5，則表示該效應較大。例如在平地就不會有重力作用，所以 Pa = 1，Pg = 0，所以空氣阻力的效應比較大。
 圖一：比較方法 此為這篇文章比較方法，若有其他比較辦法也可以利用此方程式自行做計算比較。在我還沒深入去想這問題時，我直覺是空氣阻力產生的功率是速率的三次方，那應該大部分的情況是空力影響較大吧？

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>功率訓練 on 單車新幹線Cycle Formula</title>
-    <link>https://blog-4a7.pages.dev/tags/%E5%8A%9F%E7%8E%87%E8%A8%93%E7%B7%B4/</link>
+    <link>https://jrphy.github.io/blog/tags/%E5%8A%9F%E7%8E%87%E8%A8%93%E7%B7%B4/</link>
     <description>Recent content in 功率訓練 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 30 Dec 2023 13:58:56 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E5%8A%9F%E7%8E%87%E8%A8%93%E7%B7%B4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Dec 2023 13:58:56 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E5%8A%9F%E7%8E%87%E8%A8%93%E7%B7%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>跑步功率如何估算 全馬破 2 功率要多少 跟武嶺和 40 km ITT 哪個比較難</title>
-      <link>https://blog-4a7.pages.dev/post/running_power_and_break_2h_power/</link>
+      <link>https://jrphy.github.io/blog/post/running_power_and_break_2h_power/</link>
       <pubDate>Sat, 30 Dec 2023 13:58:56 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/running_power_and_break_2h_power/</guid>
+      <guid>https://jrphy.github.io/blog/post/running_power_and_break_2h_power/</guid>
       <description>雖然現在跑步功率計不像現在是直接量測力，但是還可以從一些物理量來去做估算，首先我們先來定義跑步的動作，跑步的動作是一隻腳會在地上，然後有一段時間會兩腳離地，而腳在觸地後有一半的時間是在受力，就是 IC 到 Tc 另外一半的時間是在施力，所以實際上有功率輸出的只有 Tc 到 TO，假設是步頻 180 的情況下 表示同一隻腳，從離地到落地 也就是一個 IC 週期需要花 2/3 秒。如果觸地時間跟滯空時間一半一半的話，那觸地時間大概只有 1/3 秒，而在假設觸地時只有一半在施力的話，那麼實際上在一個 IC 周期內，一隻腳施力的時間只有 1/6 秒，算出這個施力時間後我們就可以來計算力跟功率。
 跑步的步頻習慣用每分鐘腳觸地的次數計算，但是自行車的踏頻則是一隻腳每分鐘繞圈的時間，所以跑步的步頻除二就是每隻腳每分鐘的觸地時間，換算下來的話步頻 180 就是一隻腳每分鐘觸地 90 次，如果是這樣計算的話 就會發現不論是自行車或是跑步，步頻跟踏頻都會推薦在 90 上下，這個之後再來作討論。自行車在踩踏時有超過一半的路徑都在施力，也就是我們把負的那邊當作沒在做功，另外就是因為曲柄的另一端會被帶動，所以當右腳沒在施力時，左腳會轉動曲柄，此時如果右腳沒有刻意拉提的話就會被左腳往上推，當然這個力相對於跑步落地的衝擊是非常的小，所以騎自行車沒有像跑步一樣那麼容易鐵腿。
 自行車的施力方向與前進方向雖然不同，但是可以藉由一些簡單的機械來改變施力方向，而跑步就沒辦法，所以我們就先把跑步施力方向找出來。當然跑步有個速度往前，所以人有施一個向前的力，而跑步時身體一定會有跳動，只是多少問題而已，所以跑步還有一個向上的力，這樣合力方向就可以找出來，在這邊是朝右上，最後在因為這邊合力跟施力方向平行，所以兩個相乘後就可以把做功找出來，當然功率也就可以找的出來。
@@ -24,10 +24,10 @@
     
     <item>
       <title>碳板鞋如何讓你跑得更快 跑步經濟性與垂直振幅</title>
-      <link>https://blog-4a7.pages.dev/post/carbon_plate_and_re/</link>
+      <link>https://jrphy.github.io/blog/post/carbon_plate_and_re/</link>
       <pubDate>Sat, 30 Dec 2023 11:50:17 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/carbon_plate_and_re/</guid>
+      <guid>https://jrphy.github.io/blog/post/carbon_plate_and_re/</guid>
       <description>2019 年 kipchoge 在一個非正規賽事中，將全馬的成績突破 2 小時以內，當然這也是為了破 2 而精心策畫的，所以前方也有許多的破風手幫他減少風阻，最後也不負眾望進入兩小時內。雖然這不算是正規賽事所以不列入紀錄，但是在碳板鞋的宣傳上也達到了非常好的效果，現在各家跑鞋廠商都有自己的碳板鞋，連帶的很多市民跑者也是穿著碳板鞋去比賽，我自己也買了一雙 第一次穿就破 10k PB。不過也是有許多人在懷疑碳板鞋是否真的這麼神，所以這篇文章就從理論的方面來做分析，看看碳板鞋如何讓你更快，以及哪些人不適合碳板鞋。
 現在的碳板鞋鞋底幾乎都是有好幾層，然後中間的部分放入整片的碳版，當然碳版的曲率從側面看，每雙鞋款會有些許不同，有些比較平有些比較彎，當然跑起來感覺也會有差，然後有些可能會在中間挖洞，不過不變的是碳版都至少有完整的一片，另外現在碳板鞋也越做越厚，是因為碳版雖然有彈性但是不吸震，而且大多數的碳版為了讓腳可以更順暢的往後，通常都會做個類似階梯的形狀，前後就有高低差，所以在泡棉的部分也很厚，當然也可以達到吸震的效果。
 當然碳纖在許多領域已經取代原本的材料，像自行車目前幾乎是看不到鋁車跟鈦車，畢竟相同重量下用碳纖的強度跟剛性都很強，而碳底跑鞋早在 20 年前就有做出來了，沒有成為風潮的原因是什麼不清楚，不過至少就是缺的可以讓大家知道的話題，像 2019 年這次就成功將碳板鞋帶進市場，不過也因為很硬，所以給的反作用力也大，也就是說肌肉要一直承受來自地面的力，所以對於肌肉量就有一定的要求。\
@@ -40,10 +40,10 @@
     
     <item>
       <title>CP 與 FTP 的介紹與生理意義</title>
-      <link>https://blog-4a7.pages.dev/post/cp_and_ftp/</link>
+      <link>https://jrphy.github.io/blog/post/cp_and_ftp/</link>
       <pubDate>Thu, 10 Nov 2022 23:07:05 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/cp_and_ftp/</guid>
+      <guid>https://jrphy.github.io/blog/post/cp_and_ftp/</guid>
       <description>&amp;hellip; 一、運動科學中乳酸閥值的定義 在運動科學中通常會使用，最大攝氧量與乳酸閥值及其他數據，然後搭配其他數據，例如跑步為速度 自行車為功率，來去衡量一個運動員的能力。 乳酸閥值在運動科學上有25種的定義，這邊大致上分三類
 乳酸濃度達到 4 mmol/L 就稱作乳酸閥值，又稱作 OBLA
 另一個是是最大可維持的穩態乳酸，簡稱MLSS
@@ -59,10 +59,10 @@ FTP 的定義並沒有說明能維持多久的時間，那為什麼許多人都�
     
     <item>
       <title>標準化功率的數學及其意義</title>
-      <link>https://blog-4a7.pages.dev/post/np_and_its_meaning/</link>
+      <link>https://jrphy.github.io/blog/post/np_and_its_meaning/</link>
       <pubDate>Fri, 29 Apr 2022 15:14:42 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/np_and_its_meaning/</guid>
+      <guid>https://jrphy.github.io/blog/post/np_and_its_meaning/</guid>
       <description>在做訓練時我們會預期這次訓練的量，而訓練的量即為此次運動的強度乘上時間。強度在自行車的世界有功率的話都以 功率為優先 ，並會以其他數據為輔。然而強度則會根據每個人能力不同制定客製化訓練，所以會採用 相對標準 。而自行車在騎乘時功率變化很大，所以會採用 加權平均 的方式會比算術平均還更能反映真實期程情況，但是平均功率也是能看到如做功資訊，在騎乘時對於補給策略來說很重要。
 自行車功率訓練自從 SRM 開發了第一個移動式功率計後，現在要練車的人幾乎都備有功率計，最重要的就是在騎乘完後的數據分析。現在也有許多的軟體會自動幫你計算，但若是剛開始入門會覺得眼花撩亂，如這圖一所示，這邊就先從標準化功率介紹。
 圖一：使用功率計後軟體會多出 NP, IF, VI, TSS, WORK 等資訊 一次訓練週期中課程不會只有一種，在這邊就拿兩種不一樣的課程來看，一個是接近 HIIT 如圖二，另一個則是穩定騎乘如圖三，有騎過這兩種課程的人都知道，若這兩次騎乘的平均瓦數與時間相同，一定是左圖的課程比較累，所以在訓練量的計算上若是使用平均功率，就不能反應這種情況。

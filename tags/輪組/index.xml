@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>輪組 on 單車新幹線Cycle Formula</title>
-    <link>https://blog-4a7.pages.dev/tags/%E8%BC%AA%E7%B5%84/</link>
+    <link>https://jrphy.github.io/blog/tags/%E8%BC%AA%E7%B5%84/</link>
     <description>Recent content in 輪組 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 15 Mar 2023 07:50:48 +0800</lastBuildDate><atom:link href="https://blog-4a7.pages.dev/tags/%E8%BC%AA%E7%B5%84/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2023 07:50:48 +0800</lastBuildDate><atom:link href="https://jrphy.github.io/blog/tags/%E8%BC%AA%E7%B5%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>大導輪能夠讓你省瓦嗎？用力學分析告訴你</title>
-      <link>https://blog-4a7.pages.dev/post/is_bigger_pulley_more_efficiency/</link>
+      <link>https://jrphy.github.io/blog/post/is_bigger_pulley_more_efficiency/</link>
       <pubDate>Wed, 15 Mar 2023 07:50:48 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/is_bigger_pulley_more_efficiency/</guid>
+      <guid>https://jrphy.github.io/blog/post/is_bigger_pulley_more_efficiency/</guid>
       <description>大導輪雖然不是這幾年才出現在賽場上，但是卻是有越來越多的選手使用大導輪，而且也越來越多廠商跳進來做，也有越來越多的消費者對此產品產生興趣，不論是頻道或是粉絲專頁，也是陸陸續續收到有人對於大導輪的詢問，當然大導輪一個也很貴 要換也是想很久，尤其是像我這種還沒接到葉配的，Youtuber 來說算是很貴的周邊，所以就趕快來做一部有關大導輪的影片，來看看這個錢值不值得我花。
 圖一：大導輪價錢 當然除了我以外也滿多人對於大導輪能省瓦有疑問，所以在 youtube 社群做了個調查，結果大概是一半一半，票數約有80票，表示大家對宣稱的說法還是有所存疑，當然我自己查一下網路上的說法，大部分的人是沒有感覺的，而解釋的部分也沒有說得很清楚，所以就自己找了一下相關論文從理論下手。
 當然強調能省瓦數的產品就要來算算看做功，而做功在機械上一般是從力學分析下手，所以我們就來看看自行車傳動系統的力學分析，自行車傳動系統是齒輪搭配鍊條，稱作練輪系統。在自行車中是有一個驅動輪，也就是大盤，和一個被驅動輪，也就是飛輪，然後與兩個導輪作為變速用的鍊輪系統，當然越多接觸點就會有越多的摩擦耗損，不過相較於變速系統帶來的效益，與多兩個導輪所損失的瓦數相比變速還是很重要的。而鍊輪系統在轉動時兩邊鍊條的受力也不同，以前國高中學到的滑輪系統都會假設，滑輪與繩子之間無摩擦，所以兩邊張力相等，但是因為這邊是利用轉動齒輪去帶動鍊條，鍊條再去帶動其他齒輪，所以兩邊張力不同，所以會有一邊較緊，另一邊則比較鬆，這跟驅動側的轉動方向有關，但這邊就不細講，在此我們先來關注齒輪的瓦數損耗，最後再來看整個鍊輪系統的瓦數損耗。
@@ -31,10 +31,10 @@ P1 = ΔW/ΔT = Ft dω1/(2NL )
     
     <item>
       <title>器材與服裝影響騎乘的比例</title>
-      <link>https://blog-4a7.pages.dev/post/how_machine_and_wear_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</link>
       <pubDate>Mon, 22 Aug 2022 09:35:39 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/how_machine_and_wear_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/how_machine_and_wear_affect_riding/</guid>
       <description>在騎乘時，當坡度越陡，重量影響的比例就越高，對於人+車總重 79 kg 的車手來說，在爬2 % 的坡時以 300 W 的輸出，那麼重力與空力的影響比大致一樣，超過這坡度時重量影響就更多，若以 200 W，則大概在 1.5% 的坡上大致一樣。而阻力通常占比非常小，大概是10% 左右，但就 200 W 而言也是會要消耗 20 W。所以主要的影響就是重量與空力，這部分可以看頻道另一部影片，裡面有詳細的介紹，可以點右上方的資訊欄去看，以下就分成這兩個來討論。
 先來看重量的影響比例，這邊就分成人的重量與其他物品的重量，其他物品就包含車、安全帽、卡鞋、車衣等。
 表一：各部位重量範圍 人重 車重 人身部品 重量範圍 (kg) 45~85 6.5~8.5 0.8~1.2 所以分母就放總重，分子就放人的重量，然後再看一下車手的體重範圍就，可以算出人的重量所佔的比例。當其他物品很輕人很重的情況，人的占比就很大，可到 92.1%，反過來說人很輕，其他重量很重就是人占比最小的情況，但還是有佔大概82%左右，以台灣的情況一般而言人大概是佔88.4% 左右。
@@ -43,10 +43,10 @@ P1 = ΔW/ΔT = Ft dω1/(2NL )
     
     <item>
       <title>輪組的慣性及如何影響騎乘</title>
-      <link>https://blog-4a7.pages.dev/post/inertial_of_wheel_and_how_does_it_affect_riding/</link>
+      <link>https://jrphy.github.io/blog/post/inertial_of_wheel_and_how_does_it_affect_riding/</link>
       <pubDate>Fri, 13 May 2022 22:10:00 +0800</pubDate>
       
-      <guid>https://blog-4a7.pages.dev/post/inertial_of_wheel_and_how_does_it_affect_riding/</guid>
+      <guid>https://jrphy.github.io/blog/post/inertial_of_wheel_and_how_does_it_affect_riding/</guid>
       <description>自行車在騎乘時輪子的運動狀態稱為滾動，而所謂的滾動就是移動＋轉動。而所謂的慣性呢，就是物體會保持原來的運動狀態，也就是說移動的物體保持移動，靜止的物體保持靜止。所以牛頓第一運動定律先闡明了，若沒受到力的作用，則靜者恆靜，動著恆做等速度運動。在此的速度為有方向的量。
 當把滾動分成移動跟轉動後，那麼慣性也分成了移動慣性與轉動慣性，那麼再根據力和加速度 F = ma，所以物體的質量就是移動慣性。同樣的力矩和角加速度有相同的關係 τ = Iα ，在物理中我們把轉動慣性叫做 I，又稱為轉動慣量，所以在這部影片中若你聽到轉動慣性與轉動慣量，這兩個是同一個東西。而輪子的受力來自於鍊條給的力矩，鍊條的力矩來自於我們的踩踏，所以這邊我們所關心的就是轉動慣量，其數學式為mr 2，r 為質點到轉軸的距離。所以質量大的不一定轉動慣量就大，要看距離轉軸有多遠，所以馬戲團在走鋼索時常常會拿一個很長的棍子在走，就是要增加轉動慣量。
 那麼轉動慣量要如何量測呢？其實轉動慣量就是跟轉動有關，也就是跟角度的變化有關，所以我們看到圖一就是一個測輪子轉動慣量的一種方式，不過要注意這邊的 R 還包含了充飽氣後外胎的膨脹，所以是要從線到轉軸的距離。那麼我們就可以利用這邊的計算結果來和我們的模型做比較。
