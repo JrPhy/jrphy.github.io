@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>車架幾何 on 單車新幹線Cycle Formula</title>
+    <link>https://operftrain.com/tags/%E8%BB%8A%E6%9E%B6%E5%B9%BE%E4%BD%95/</link>
+    <description>Recent content in 車架幾何 on 單車新幹線Cycle Formula</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 20 May 2025 20:36:51 +0800</lastBuildDate>
+    <atom:link href="https://operftrain.com/tags/%E8%BB%8A%E6%9E%B6%E5%B9%BE%E4%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>車架幾何如何影響騎乘 爬坡車幾何會比較適合爬坡嗎</title>
+      <link>https://operftrain.com/post/how_bike_frame_affect_stability_in_riding/</link>
+      <pubDate>Tue, 20 May 2025 20:36:51 +0800</pubDate>
+      <guid>https://operftrain.com/post/how_bike_frame_affect_stability_in_riding/</guid>
+      <description>一般在選車架時最主要要看的就是，stack 與 reach 會決定你要騎什麼尺寸，所以在買車的時候通常會去量測你的跨高，甚至是直接上一台可以 fitting 的車幫你算。車架幾何在購車時通常都會列出來，不過我自己都沒有看直接交給 FITTER，只要知道我自己騎什麼尺寸，把手用多長就好了，當然如果你是都自己來都話就需要了解。不過車架幾何也很多數值要看，也有人說這台車頭管角度如何，前叉偏移多少 BB 下沉多少然後騎起來如何的。我自己是很少去關注啦 反正之前剛好有人講，我也順便去看了一下資料了解一下，不過車架幾何算是滿多部份的，我們先來講頭管、前叉跟 BB 下沉量。&#xA;圖一：公路車架幾何 圖二：登山車架幾何 圖三：車架大小幾何 我們先來看一台車的車架幾何表，通常會附圖跟你講他的量測範圍，然後根據不同的尺寸附上不同的數值。這次先講的量就是 C~F 這四個，其中 C 是指頭管角度 D 是 BB 下沉量，E 是拖曳距 F 是前叉偏移量，雖然表大部分是英文，但從圖一與圖二也能知道。當然也不是每個品牌都會給得這麼齊全，像 scott 的就沒有給出前叉偏移量，foil 的幾何也沒有給出拖曳距的量，不過還是可以依照下面這個公式算出來，網路上也有很多計算機我網站就不做了。&#xA;Trail = (RcosA – forkoffset)/sinA&#xA;對於不同車種而言，我指的是公路車與山地車，兩者的幾何差異一定很大，而公路車追求的是在公路上高速前進，所以光不同尺寸其實也有一點點差異，這邊就看 Factor 跟 BMC 兩個品牌下，不同車種的這些值有什麼差異。&#xA;Ostro VAM HANZŌ Track LANDO XC Fox 頭管角度 (o) 71.1~73.3 72.7 67 前叉偏移 (mm) 57~43 46 51 拖曳距 (mm) 58~58.6 57 95.5 BB 下沉量 (mm) 72~70 50~55 40 Teammachine Trackmachine Fourstroke 頭管角度 (o) 71.</description>
+    </item>
+  </channel>
+</rss>

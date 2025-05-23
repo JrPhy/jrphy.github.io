@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <title>車架幾何如何影響騎乘 爬坡車幾何會比較適合爬坡嗎 // 單車新幹線Cycle Formula</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.123.7">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="單車新幹線Cycle Formula" />
+    <meta name="description" content="比較重量與空力在爬坡時的功率比例" />
+    <link rel="stylesheet" href="/static/assets/css/main.min.dd8e013c956a7fa5dd5b55da0972f395cff8a888c7683eefc32dd5709eef3853.css" />
+
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="車架幾何如何影響騎乘 爬坡車幾何會比較適合爬坡嗎"/>
+<meta name="twitter:description" content="比較重量與空力在爬坡時的功率比例"/>
+
+    <meta property="og:title" content="車架幾何如何影響騎乘 爬坡車幾何會比較適合爬坡嗎" />
+<meta property="og:description" content="比較重量與空力在爬坡時的功率比例" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://operftrain.com/post/how_bike_frame_affect_stability_in_riding/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2025-05-20T20:36:51+08:00" />
+<meta property="article:modified_time" content="2025-05-20T20:36:51+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://operftrain.com/"><img class="app-header-avatar" src="/avatar.jpg" alt="單車新幹線Cycle Formula" /></a>
+      <span class="app-header-title">單車新幹線Cycle Formula</span>
+      <p>騎乘技巧的理論分析</p>
+      <div class="app-header-social">
+        
+          <a href="https://operftrain.com/" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-home">
+  <title>Home</title>
+  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+          </a>
+        
+          <a href="https://operftrain.com/author/blog" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-book">
+  <title>blog</title>
+  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+</svg>
+          </a>
+        
+          <a href="https://operftrain.com/author/customer_p_RoutePredict" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-zap">
+  <title>路段計算機</title>
+  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+</svg>
+          </a>
+        
+          <a href="https://www.youtube.com/channel/UCei7UffxFMaYKRgmO-GsMRQ" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-youtube">
+  <title>Youtube</title>
+  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+          </a>
+        
+          <a href="https://www.facebook.com/CycleFormula" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-facebook">
+  <title>Facebook</title>
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.instagram.com/cycle_formula" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-instagram">
+  <title>instagram</title>
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+</svg>
+          </a>
+        
+          <a href="https://www.paypal.com/ncp/payment/DL98YFTQ6CBRN" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-dollar-sign">
+  <title>dollar-sign</title>
+  <line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+</svg>
+          </a>
+        
+          <a href="" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-corner-up-left">
+  <title>回 blog</title>
+  <polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">車架幾何如何影響騎乘 爬坡車幾何會比較適合爬坡嗎</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          May 20, 2025
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://operftrain.com/tags/%E7%88%AC%E5%9D%A1/">爬坡</a>
+              <a class="tag" href="https://operftrain.com/tags/%E8%BB%8A%E6%9E%B6%E5%B9%BE%E4%BD%95/">車架幾何</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <font size="5">
+      
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/-PkDiU17CRk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>一般在選車架時最主要要看的就是，stack 與 reach 會決定你要騎什麼尺寸，所以在買車的時候通常會去量測你的跨高，甚至是直接上一台可以 fitting 的車幫你算。車架幾何在購車時通常都會列出來，不過我自己都沒有看直接交給 FITTER，只要知道我自己騎什麼尺寸，把手用多長就好了，當然如果你是都自己來都話就需要了解。不過車架幾何也很多數值要看，也有人說這台車頭管角度如何，前叉偏移多少 BB 下沉多少然後騎起來如何的。我自己是很少去關注啦 反正之前剛好有人講，我也順便去看了一下資料了解一下，不過車架幾何算是滿多部份的，我們先來講頭管、前叉跟 BB 下沉量。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_road.jpg" alt="圖一"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖一：公路車架幾何</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_montain.jpg" alt="圖二"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖二：登山車架幾何</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_size.jpg" alt="圖三"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖三：車架大小幾何</td>
+</tr>
+</tbody>
+</table>
+<p>我們先來看一台車的車架幾何表，通常會附圖跟你講他的量測範圍，然後根據不同的尺寸附上不同的數值。這次先講的量就是 C~F 這四個，其中 C 是指頭管角度 D 是 BB 下沉量，E 是拖曳距 F 是前叉偏移量，雖然表大部分是英文，但從圖一與圖二也能知道。當然也不是每個品牌都會給得這麼齊全，像 scott 的就沒有給出前叉偏移量，foil 的幾何也沒有給出拖曳距的量，不過還是可以依照下面這個公式算出來，網路上也有很多計算機我網站就不做了。</p>
+<hr>
+<blockquote>
+<p>Trail = (RcosA – forkoffset)/sinA</p>
+</blockquote>
+<hr>
+<p>對於不同車種而言，我指的是公路車與山地車，兩者的幾何差異一定很大，而公路車追求的是在公路上高速前進，所以光不同尺寸其實也有一點點差異，這邊就看 Factor 跟 BMC 兩個品牌下，不同車種的這些值有什麼差異。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:right">Ostro VAM</th>
+<th style="text-align:right">HANZŌ Track</th>
+<th style="text-align:right">LANDO XC Fox</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>頭管角度 (<sup>o</sup>)</td>
+<td style="text-align:right">71.1~73.3</td>
+<td style="text-align:right">72.7</td>
+<td style="text-align:right">67</td>
+</tr>
+<tr>
+<td>前叉偏移 (mm)</td>
+<td style="text-align:right">57~43</td>
+<td style="text-align:right">46</td>
+<td style="text-align:right">51</td>
+</tr>
+<tr>
+<td>拖曳距 (mm)</td>
+<td style="text-align:right">58~58.6</td>
+<td style="text-align:right">57</td>
+<td style="text-align:right">95.5</td>
+</tr>
+<tr>
+<td>BB 下沉量 (mm)</td>
+<td style="text-align:right">72~70</td>
+<td style="text-align:right">50~55</td>
+<td style="text-align:right">40</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:right">Teammachine</th>
+<th style="text-align:right">Trackmachine</th>
+<th style="text-align:right">Fourstroke</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>頭管角度 (<sup>o</sup>)</td>
+<td style="text-align:right">71.5~72.3</td>
+<td style="text-align:right">72</td>
+<td style="text-align:right">66.5</td>
+</tr>
+<tr>
+<td>前叉偏移 (mm)</td>
+<td style="text-align:right">48~43</td>
+<td style="text-align:right">45</td>
+<td style="text-align:right">44</td>
+</tr>
+<tr>
+<td>拖曳距 (mm)</td>
+<td style="text-align:right">63</td>
+<td style="text-align:right">60</td>
+<td style="text-align:right">113</td>
+</tr>
+<tr>
+<td>BB 下沉量 (mm)</td>
+<td style="text-align:right">69</td>
+<td style="text-align:right">54</td>
+<td style="text-align:right">53</td>
+</tr>
+</tbody>
+</table>
+<p>先來看公路車因為公路車尺寸由小到大，所以數值是從尺寸小到大來看，可以看到在頭管角度與前叉偏移量有較大差異，拖曳距跟五通下沉量兩著差異不大，然而場地車則是只有五通下沉量有差，其餘的跟山地車都是沒有尺寸差異，而另一個 BMC 的車種也是一樣。那麼這些量會怎麼影響騎乘呢，首先我們先來看看拖曳距，拖曳距在機車是一個滿重要的量，但我看在意自行車車架幾何的人，比較少再看這數值 反而是頭管跟前叉。</p>
+<p>以一般公路車來說，大部分頭管會有角度，但是前叉不一定會有偏移，所以我們就可以將這兩個做延伸，就會跟地面有個交點 這交點與，輪子觸地點的距離就是拖曳距。有人說頭管角度跟前叉偏移量，會影響車子的操縱靈敏度，這樣說不太精確，準確來說是拖曳距，而影響拖曳距的還有輪距，而且從前面的一些資料來看，大部分的公路車即便尺寸不同，也會盡量讓拖曳距的數值固定，所以隨著尺寸改變的量通常是，頭管角度 前叉偏移量跟輪距，這也很合理，畢竟尺寸大輪距也就大，要固定拖曳距就是要在改變其他兩個量。</p>
+<p>而拖曳距為什麼會跟靈敏度有關，我們從物理學的角度來看，反正自行車就是個簡單機械，在轉彎時我們會對把手施個力產生力矩，而輪子也會有一個抗力矩要克服，拖曳距在這邊其實就是扮演抗力臂的腳色，所以當抗力臂越長那就越難轉彎，也就是越穩定的意思，反過來說就是越不靈敏，當然最近流行的窄把手也有相同問題，如果你喜歡操作靈敏的話，那可以加寬把手或是選拖曳距小一點的車架。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_size.jpg" alt="圖四"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖四：拖曳距</td>
+</tr>
+</tbody>
+</table>
+<p>再來看五通的部分，這相對單純，畢竟現在公路車輪徑都固定 26 吋，下沉量其實就只跟離地高度有關而已，而五通越下沉表示重心越低，所以在過彎的時候會覺得比較穩定，當然這個量個人覺得不是這麼重要，因為重心位置也會隨著戴上水瓶，或是車手本身重量，甚至車架大小有關，單單從車架本身來看重心越低是越穩沒錯，不過影響重量最多的是車手本身，所以即便五通真的很低但車手很重，決定穩定度的主因還是在車手，而且五通下沉太多的話，曲柄容易撞到障礙物造成摔車，所以一般山地車五通不會下沉太多，當然有些人比較敏感，差一點就會覺得穩定度差很多，但個人是沒有很在意這兩個量。</p>
+<p>在車架幾何的部分，拖曳距與五通，是會影響車子的穩定性，不過就以公路車而言 不同品牌車的差異，不會有不同車種間的差異大，當然如果你很在意操控的感覺，你可以根據上方的討論，去從幾何數據去選擇車架，但就我個人而言，這不會是我的主因，我買公路車也從來沒去在這兩個數據。</p>
+<p>當然車商給的還有很多其他數據，就會有人說某個數據怎麼樣騎起來如何，其實同一種類的車不會差太多，但是公路車尺寸種類很多，所以幾何上還是多多少少有差異，整體來說還是會維持車子的調性，仔細去看就會發現有些量是幾乎不變的，例如五通下沉量、拖曳距、後下叉常跟座管角度，所以你想要看一台車的調性如何，就可以從這四個數值去下手。如果有人根據其他的數值跟你說，這台車的騎乘感覺如何，那你可能還要跟他要尺寸才準，當然這也跟車架設計有關，因為越大台的車 stack 與 reach 越長，輪距也越遠，當然在一些物理性質上也有差。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_wheel_dist.jpg" alt="圖五"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖五：輪距</td>
+</tr>
+</tbody>
+</table>
+<p>例如在一些石板路上就會一直感覺到震動，輪距越遠，遇到障礙物要抬起的角度就越大，就會覺得震動比較明顯，當然這還跟把手長有關，而車架本身要重視的是結構強度，也就是要適應多變的路面，也需要維持一定的強度，不能車手只是稍微抽車就有形變甚至斷裂。公路車的座管會有一個角度，可以讓車手在不同坡度時改變騎姿，進而改變所使用的肌群來做到恢復，另一點就是可以讓座管有點彎曲，使得路面傳來的震動可以藉由，讓座管稍微晃動消耗能量，其實就是坐起來會比較軟 Q，這一點可以在一些長途車上看到相關設計。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_back_up_fork.jpg" alt="圖六"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖六：後上叉</td>
+</tr>
+</tbody>
+</table>
+<p>除了角度外也會讓座管晃動比較大，而其他車種則不會有這種設定。如果是計時車甚至是三鐵車，座管角度就會更大，因為地形變化不大，不過當然除了角度以外，座管的粗細，也是一個影響的因素，而座管有角度，如果不希望斷掉的話，我們就會在後方再加個支撐物，車架上就是再加一根後上叉。而後上叉的位置也會影響騎乘，近年來會看到許多車的後上叉也開始下移，後上叉的位置會影響到座管的晃動，空力車早一點就已經開始下移了，因為座管通常比較粗晃動不會這麼大，而且早年的空力車也很重，真的是大山站的話比較多人會用爬坡車，而爬坡車的後上叉位置通常比較高，是因為座管比較細晃動會比較大，後上叉位置高的話就可以減少晃動，再爬大山時往下踩的時候屁股也會往下施力，不過這個其實也僅限加大瓦數坐著騎乘時，不理解的話看完影片去爬坡就理解了。</p>
+<p>所以在之前 tcr 與 defy 的影片中也有提到，defy 是為了舒適 tcr 是為了競速，你如果撐得下去就可以買 tcr 不然就買 defy，所以後上叉位置確實會影響騎乘的舒適性，不過主要還是要讓車架結構完整。當然不受 uci 限制的三鐵車甚至也沒後上叉，而且三鐵車幾乎是穩穩地定瓦踩踏，不像公路車會需要攻擊或追擊，所以即便是 defy 比 tcr 稍微重一些，如果你不是要拚頒獎台的話，我個人還是會推薦 defy 而不是 tcr，跟我之前影片的結論還是一樣的，不過我都騎空力車所以沒這煩惱。</p>
+<p>不同的車有不同的使用場地跟不同的騎法，車商在開發車架時不可能讓每個人都適應，但是有很多地方可以調整讓你適應，像是坐墊位置、座管長度與把手長度，所以一台車的調性其實主要是由車種決定，今天開發這車種是要騎平路或山路，騎柏油路或是石板路甚至是泥地，早在一開始就決定好了，當然同一車種同尺寸但是不同品牌，車架數值還是會有些微的差異，不過這些差異可以靠適應來彌補。所以像我數據看得比一般使用者多，但我選車我也不會依照數據去選擇，不會有一台車對於你來說是十全十美的。車架數據這麼多，最重要的就是 stack 與 reach，先看能不能騎再去考慮剩下的數值，另外在挑車架時如果這兩個太緊繃，就建議挑小一號的，剩下靠 fitting 解決，包括空力姿勢 使用肌群等等問題，fitting 就是幫你微調這些參數。</p>
+<p>而空力車與爬坡車車架差異一直是一個車友間的話題，但當大家在討論時好像也沒一個結論，或者是說踩起來怎麼樣但實際騎起來也沒比較快，當然不同車種的車架幾何也會有不同，我們來看一下空力車跟爬坡車架的差異，然後來看看這點差異會如何影響騎乘，以及看看爬坡車車架會不會讓你爬比較快。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_R5_S5.jpg" alt="圖七"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖七：R5 與 S5 車架幾何差異</td>
+</tr>
+</tbody>
+</table>
+<p>首先先來看看 R5 與 S5 的兩台車車架，官網上抓下來就是向量圖不用再後製，可以再兩台車都是相同尺寸下，R5 的拖曳距比 S5 長了一點，而座管角度如果是定義從五通中心到座管頂點，那麼這兩台車的座管角度是一樣的。不過就我自己的觀點來說，這種有轉折點的座管角度，我是會從座管頂點與後上叉交點的延伸線，與水平面的夾角去看，所以就我個人的觀點來說，S5 的座管角度是比較大的，五通下沉量也是 S5 下沉比較多。當然會有這差異也是跟使用情境有關，空力車一般來說會在起伏不大的路面使用，而爬坡車則是會在高度落差較大的賽段使用，所以爬坡車的拖曳距跟五通下沉量通常較大，因為有長下坡又需要高速過彎，所以在穩定性與壓車角度上有較大的需求，也因為下坡速度比較快，所以在操縱龍頭上沒那麼靈敏，很靈敏地話龍頭稍微撇一下就飛下山了，直接自由落體到山腳。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:right">R5 2023 47</th>
+<th style="text-align:right">S5 2024 47</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>頭管角度 (<sup>o</sup>)</td>
+<td style="text-align:right">71</td>
+<td style="text-align:right">71</td>
+</tr>
+<tr>
+<td>前叉偏移 (mm)</td>
+<td style="text-align:right">73</td>
+<td style="text-align:right">&gt; 73</td>
+</tr>
+<tr>
+<td>拖曳距 (mm)</td>
+<td style="text-align:right">57.3</td>
+<td style="text-align:right">&lt; 57.3</td>
+</tr>
+<tr>
+<td>BB 下沉量 (mm)</td>
+<td style="text-align:right">72.5</td>
+<td style="text-align:right">74.5</td>
+</tr>
+</tbody>
+</table>
+<p>接下來來看看最近改變比較大的 propel，先來跟 tcr 做比較，可以看到除了上管比較平，然後頭管角度沒那麼大外，其餘與 TCR 的差異沒有很大，可以看到兩台車後上叉位置一樣，但是上管與座管的交點處不同，這其實也會讓座管的力臂變短，使得 propel 的座管彎曲程度小一點，TCR 則是在前叉有比較斜一點，所以操控起來會沒有 propel 靈敏。當然 TCR 也是有它的歷史定位的，就是把登山車的壓縮車架搬到公路職業賽，所以對於捷安特來說是將 propel，的產品線整併到全能車上保留 TCR，不過個人覺得 TCR 定位會很尷尬，以後大環賽應該會很少看到 TCR 的身影，但對於普通人來說還是一個不錯的選擇，</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_new_tcr_propel.jpg" alt="圖八"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖八：新 TCR 與 PROPEL 車架幾何差異</td>
+</tr>
+</tbody>
+</table>
+<p>在來看一下早期 TCR 跟 PROPEL 的幾何差異，可以看到兩者其實也沒差多少，但從數據上來看其實還是有差，主要是座管比較直、頭管比較斜，不確定是不是因為水平上管的關係，從管型上來看舊款 PROPEL 是一台很標準的空力車 就是側面看起來很粗。當然如果你仔細去看新的 PROPEL 廣告，可以發現是其他部分裝備空力升級，但是車架部分則是選擇了輕量，之前也有做過相關的影片可以去看，接著看看舊款與新款的 PROPEL 幾何，其實會發現差異也不是很大。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="geo_old_tcr_propel.jpg" alt="圖九"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">圖九：舊 TCR 與 PROPEL 車架幾何差異</td>
+</tr>
+</tbody>
+</table>
+<p>實際上從官方給的數據來看，可以看到新款的 propel 做管稍微傾斜，頭管則是變得更直立，舊款的沒看到五通下沉與拖曳距，如果你有這些數據也可以在下方留言討論，再來看到新款 tcr 跟 propel 幾何數據，可以看到相同尺寸 座管角度相同。而五通下沉量則是沒有差很多，比較多則是在拖曳距的部分，所以你如果是從 tcr 換 propel，穩定性來說應該是覺得 propel 比較靈敏，不過這點個人是覺得習慣就好。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:right">TCR ADV PRO 2025 S</th>
+<th style="text-align:right">PROPEL ADV PRO 2025 S</th>
+<th style="text-align:right">TCR ADV PRO 2016 46.5</th>
+<th style="text-align:right">PROPEL ADV PRO 2016 46.5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>頭管角度 (<sup>o</sup>)</td>
+<td style="text-align:right">72.3</td>
+<td style="text-align:right">72.3</td>
+<td style="text-align:right">72</td>
+<td style="text-align:right">71</td>
+</tr>
+<tr>
+<td>前叉偏移 (mm)</td>
+<td style="text-align:right">74</td>
+<td style="text-align:right">74</td>
+<td style="text-align:right">73.5</td>
+<td style="text-align:right">74.5</td>
+</tr>
+<tr>
+<td>拖曳距 (mm)</td>
+<td style="text-align:right">64</td>
+<td style="text-align:right">57.8</td>
+<td style="text-align:right">??</td>
+<td style="text-align:right">??</td>
+</tr>
+<tr>
+<td>BB 下沉量 (mm)</td>
+<td style="text-align:right">69.5</td>
+<td style="text-align:right">70</td>
+<td style="text-align:right">??</td>
+<td style="text-align:right">??</td>
+</tr>
+</tbody>
+</table>
+<p>當然你可以去找早期其他廠牌，爬坡車跟空力車車架幾何數據，從操控的角度來說 爬坡車不是只有爬坡，除非你到山頂就搭車下來而不是騎下來，不然有上坡就會有下坡，所以拖曳距通常會較長 五通通常也比較高，來達到過彎壓車跟較穩的結果，當然每家廠商有他們設計的邏輯，可能也不是都有這結果。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:right">R5 2023 47</th>
+<th style="text-align:right">S5 2024 47</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>頭管角度 (<sup>o</sup>)</td>
+<td style="text-align:right">較小</td>
+<td style="text-align:right">較大</td>
+</tr>
+<tr>
+<td>前叉偏移 (mm)</td>
+<td style="text-align:right">較小</td>
+<td style="text-align:right">較大</td>
+</tr>
+<tr>
+<td>拖曳距 (mm)</td>
+<td style="text-align:right">較大</td>
+<td style="text-align:right">較小</td>
+</tr>
+<tr>
+<td>BB 下沉量 (mm)</td>
+<td style="text-align:right">較小</td>
+<td style="text-align:right">較大</td>
+</tr>
+</tbody>
+</table>
+<p>所以看了這些數據，那麼幾何到底，會不會讓你更好爬坡呢，當然大家也知道爬坡主要就是重量，以前空力車真的是比爬坡車重不少，所以近 30 年前 pantani 的車，反而還比 pogacar 在去年環法，爬貝爺高地的車還要輕 但也沒比較快。從差異跟結果來看幾何都不是主因，那為什麼早期都是用爬坡車爬坡呢，主要是以前空力車在鋁的時代真的重，所以以前會看到很細的輪子跟車架，但是碳纖時代應該就不會再看到了。在來就是以前齒比都很大，標準盤配 28t 的飛輪去爬十幾趴的坡，現在則是有 CT 或是壓縮盤配 34t，讓爬坡的速度整個再往上提，空力也變得比較重要而非重量，現在大環賽幾乎都空力車騎到底，所以爬坡車的幾何會不會更好爬坡，可以從大環賽選手用車的趨勢看到。即便幾何真的有差 也可以靠 fitting 來調整，影響絕對是不會有重量 齒比跟空力大，而且車架幾何就算固定，你的操控技巧也會改變，人可以去習慣車子的調性，多多外騎就可以找到最好的操縱方式。</p>
+
+      </font>
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
