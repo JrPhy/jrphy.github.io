@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>減肥 on 單車新幹線Cycle Formula</title>
-    <link>https://jrphy.github.io/tags/%E6%B8%9B%E8%82%A5/</link>
+    <link>http://localhost:1313/tags/%E6%B8%9B%E8%82%A5/</link>
     <description>Recent content in 減肥 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 31 Dec 2022 20:53:15 +0800</lastBuildDate>
-    <atom:link href="https://jrphy.github.io/tags/%E6%B8%9B%E8%82%A5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%B8%9B%E8%82%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HIIT 課表要如何安排 能減比較多的脂肪嗎 智慧訓練台如何操作 HIIT 課表</title>
-      <link>https://jrphy.github.io/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</link>
+      <link>http://localhost:1313/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</link>
       <pubDate>Sat, 31 Dec 2022 20:53:15 +0800</pubDate>
-      <guid>https://jrphy.github.io/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</guid>
+      <guid>http://localhost:1313/post/hiit_training_fat_burning_how_to_perform_with_smart_trainer/</guid>
       <description>一、最大攝氧量與心肺的關係 在運動科學中常常會談論最大攝氧量 VO2max，最大攝氧量從生理學來看就是，組織細胞所能消耗或利用氧的最高值，而在身體裡面氧氣會藉由血液運送，而血液是心臟做泵浦運動送到全身，所以最大攝氧量又等同於，心臟輸出血液的量 X 動脈靜脈血氧差，這個式子又稱作 Fick equation，有興趣的可以自行去找其他資料看他的推導。&#xA;所以這邊我們將最大攝氧量與心輸出連結起來，才會說最大攝氧量代表一個人的心肺能力，在醫學與健康方面也發現，最大攝氧量與心血管疾病發病率成負相關，也就是最大攝氧量越高，會有高血壓等心血管疾病的機率越低。&#xA;而我們在測驗最大攝氧量時，也只需要量測吸入與呼出的氧氣量即可，不需要去測心臟血液的輸出量。&#xA;二、HIIT 課表的變數與分類 那麼想必大家都有聽過 HIIT，可以提高你的最大攝氧量，而且 HIIT 課表通常時間也短很有效率，那麼我們來看一下什麼叫做 HIIT 課表。HIIT 課表中主要有四個變數，強度 I、高強度的時間 T 、休息時間 t、和高低強度所重複的組數 n，當然最重要的就是高強度與其時間，這兩個會決定這次課表的訓練量，分類如下表所示。&#xA;I (%VO2max) T(min) t*(min) n Short HIIT 100 1 4 12 Medium HIIT 90 2 3 12 Long HIIT 85 4 1.5 8 MIIT 80 8 1 4 SIT 170 0.5 4.5 12 其中若高強度非常高且時間非常短，則稱為衝刺區間訓練 (SIT)。一般高強度的持續時間在 HIIT 來說，是不會超過 5 分鐘的 且根據強度不同，在課表中高強度要維持的時間也不同，低強度的恢復時間也不一樣，所以這邊根據高強度時間做區別，分別在定義出這些 HIIT 方便後面使用，其中如果高強度時間低於 60 秒，我們就稱為衝刺間歇訓練 (SIT)。&#xA;點我贊助作者/Donate&#xA;三、HIIT 與 SIT 課表的效果 那麼我們先來看 HIIT 與 SIT，對於提高最大攝氧量的效果如何。圖一是從這邊論文中所擷取的圖，這篇論文整理了許多論文的研究結果，並將其結果畫成最右邊的圖表示，可以看到就平均值的差而言幾乎是為零，也就是表示這兩種間歇訓練，對於提高最大攝氧量的效果是差不多的，當然整體看起來是比較偏 HIIT 一點。所以可知只要高強度的時間有達到，那麼選擇 HIIT 或 SIT 都可以，單看你喜歡做哪一種間歇課表而已。</description>
     </item>
   </channel>
