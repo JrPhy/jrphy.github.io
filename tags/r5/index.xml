@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R5 on 單車新幹線Cycle Formula</title>
-    <link>http://localhost:1313/tags/r5/</link>
+    <link>https://jrphy.github.io/tags/r5/</link>
     <description>Recent content in R5 on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <lastBuildDate>Fri, 08 Aug 2025 08:20:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/r5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrphy.github.io/tags/r5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>新 S5 與 R5 的改變 與 Y1RS 和 V5RS 的差異 爬坡會差多少</title>
-      <link>http://localhost:1313/post/s5_r5_v5rs_y1rs/</link>
+      <link>https://jrphy.github.io/post/s5_r5_v5rs_y1rs/</link>
       <pubDate>Fri, 08 Aug 2025 08:20:24 +0800</pubDate>
-      <guid>http://localhost:1313/post/s5_r5_v5rs_y1rs/</guid>
+      <guid>https://jrphy.github.io/post/s5_r5_v5rs_y1rs/</guid>
       <description>新的 R5 與 S5 在 2025 年的環法後也正式發表了，首先先來看看 R5 的幾何變化，可以看到把兩款 R5 疊起來車架完全重疊，也就說明車架幾何完全沒有差異，如果去看實際數字也可以說明這件事。&#xA;圖一：新舊 R5 差異 而 S5 對於幾何改變也不是很多，不過可以看到還是有一點點的變化，相同尺寸下前叉偏移多了 0.5 mm，五通也比較下沉 多了 2mm，後下叉看起來也稍為的往下移了，但是最主要的改變還是在頭管與前叉厚度。畢竟 S5 就是空力車 所以對於空力還是比較在意的，不過就官方的宣稱 S5 還是比舊款輕了 124 g，材料使用變多還能變輕 來看看到底是輕在哪。 :&amp;ndash;: 圖二：新舊 S5 差異 點我贊助作者/Donate&#xA;現在除了車架跟前叉 座管跟把手也很多特規，以後空力車的車架組計算可能還要多加這兩項，s5 新把手把螺絲的部分捨棄掉變成真一體式，官方宣稱光把手就輕了 100 g，所以算下來車架跟前差只輕了 24 g，可以知道目前材料的改變可能也快到了極限，不過用量增加重量還減少算是不錯的表現。&#xA;圖三：新舊 S5 車把差異 那麼來跟 colnago 的空力車和爬坡車比較，可以看到就爬坡車而言 R5 還是比較輕的，比 V5RS 輕了約 60 g 左右，而空力車部份兩台重量就是差不到 10g，不過 S5 的座管可能比 Y1RS 稍微重些，所以在考慮到座管與把手，S5 大概會比 R5 重約 600 g 左右。&#xA;表一：四台車子車架組重量差&#xA;車架 (g) 前叉 (g) 差異 (g) R5 650 300 &amp;ndash; V5RS 685 324 +59 Y1RS　965 450 +465 S5　1036 388 +473 當然 Y1RS 本身也算是參考了許多車的設計，頭管前叉跟 S5 也差不多，但座管與上管連接處是斜的，用料比 S5 少了一點所以也稍微輕一點，而且也用圓座管也會在輕一些，但是風阻也會比 S5 再高一些。</description>
     </item>
   </channel>
