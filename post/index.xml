@@ -6,8 +6,15 @@
     <description>Recent content in Posts on 單車新幹線Cycle Formula</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 19 Aug 2025 20:24:24 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 22 Aug 2025 23:27:43 +0800</lastBuildDate>
     <atom:link href="https://jrphy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>V5RS 與 Y1RS 和 V4RS 的差異 V5RS 與 Y1RS 爬坡會差多少</title>
+      <link>https://jrphy.github.io/post/y1rs_v5rs_v4rs/</link>
+      <pubDate>Fri, 22 Aug 2025 23:27:43 +0800</pubDate>
+      <guid>https://jrphy.github.io/post/y1rs_v5rs_v4rs/</guid>
+      <description>Colnago今年也升級了 V4RS 推出 V5RS 了，重量當然是比 V4RS 還要輕，不過早半年的 Y1RS 則是比較重，雖然 V4RS 在 TOUR 雜誌的數據不怎麼樣，但Colnago 之前本來就沒有空力車的產品線，這次的 Y1RS 剛好就把這部分補足了。畢竟騎乘的人可是拿下多次環法冠軍，以及多個古典賽冠軍和世界冠軍的人，所以即便數據差價錢高還是會有人買單。&#xA;一、V5RS 與 V4RS 的幾何差異 圖一：V4RS 與 V5RS 差異 首先一樣來看看與前一代的幾何差異，上管白色的是新的，黑色則是舊的，可以看到新的上管變得稍微水平一點，且後上叉也往上拉了一點，與現在的趨勢相反，而座管角度也變得稍微傾斜一點，剛好這兩個就是對坐起來的感覺，起到一正一負的作用，所以要騎了才知道是軟是硬，當然前叉角度也變得更直，操縱起來會更靈敏，當然拖曳距也變得更短，這應該是差最多的部分。&#xA;表一：幾何數據差異&#xA;V5RS V4RS Reach (mm) 384 -1 Head angle (deg) 72.3 +0.8 Seat angle (deg) 74.8 +0.3 Head tube (mm) 127 +3 Fork offset (mm) 47 -0.4 Trail 59.5 +4.1 二、Y1RS 與 V4RS 的幾何差異 雖然用眼睛看就知道跟 V4RS 差很多，但還是不免俗地把兩台車疊再一起看，可以看到前叉的部分粗壯了非常多，座管下方也變成貼著後輪的彎曲形狀，像 S5 和 Foil 也有類似的設計，不然就是做得很粗然後把靠近輪子的地方挖空。不過 Y1RS 則是將這部分分開，所以車架重量會比其他空力車在輕一點，除了變粗以外也變得稍微有點尖，畢竟是空力車而且騎乘者瓦數又大，所以多了這點設計可以在高速下省下更多瓦。另外一個就是把手的設計也改了很多，可以看到與傳統的平整面差了很多，不再與把手在同個平面上變的立體。而為什麼有人會說競爭者是 S5 呢，可以看到與 S5 的把手只差在那個水平面，反正現在 UCI 也不允許手肘放在手把上，所以少了那個部分對目前規則來說也沒影響。</description>
+    </item>
     <item>
       <title>爬武嶺輕量化阻力不一定比較少，如何避免爬長坡的衰退與配瓦</title>
       <link>https://jrphy.github.io/post/lighter_is_not_less_resistance_when_climbing/</link>
@@ -30,7 +37,7 @@
       <description>BMC 的 TEAMMACHINE SLR 暌違五年，終於出了新車 重量也直接少了 200 多克，雖然在大環賽的贊助車隊表現沒其他品牌好，不過好歹計時車也是讓 ROHAN DENNIS 拿到世界冠軍，來看看新車與舊車的差異，以及這台車能讓你爬坡快多少。首先先來看看幾何差異，依樣把舊車與新車疊起來看，可以發現兩者幾乎沒有差異，從幾何數據上來看也是一樣，當然這也是他們想要的，希望從舊款到新款可以不用花太多時間適應。&#xA;圖一：新舊 TEAMMACHINE SLR 差異 身為新款的車重量減輕是一定要的，暌違五年左右才有改款，這次重量直接少了 200 多克，不僅車架少了 100 多克，前叉與座管合計也少了 100 克。不過就一些報導來說可以少這麼多，主因是因為車架上的漆換成貼紙，烤漆是真的滿重的，尤其是會變色的，如果直接碳纖+貼紙是可以少掉 50~60 克，所以如果真的要輕就要選消光的。&#xA;點我贊助作者/Donate&#xA;表一：新舊車架組重量差&#xA;車架 (g) 前叉 (g) 座管 (g) 總和 (g) MY26 700 339 134 1173 MY23 822 390 183 1395 -122 -51 -49 -222 除了重量外，風阻減少也是一定有的，就官方宣稱比上一代少了 5%，可以來看一下到底哪裡減少了。仔細看可以看的車前叉整根變細了，所以整體來說重量也輕了，當然爬坡車風阻要減少大概也只能這樣搞。像 V5RS 其實也是差不多的作法，畢竟減少後方亂流要增加部件就會增加重量，而且用減少迎風面積來減少風阻面積，其實很困難，因為還要顧慮到強度，所以爬坡車能做的改進其實不多。&#xA;圖二：迎風面積差異 那麼來看一下官方所釋出的雷達圖，可以看到在輕量與空力表現，都比上一代好，而 teammachine R，則是 BMC 的空力車，可以看到剛性跟空力，勝過 SLR 的，這也是一個空力車比較硬的例子。&#xA;圖三：雷達圖 看完了與上一代的差異後，不免俗的要來算一下爬坡的差異，依樣拿台灣人喜歡的西進武嶺來計算。可以看到在這個距離下，瓦數越低差異反而越少，這是因為瓦數高風阻就大，而重量較重速度就較慢所以風阻小一些，整體來說就不會有瓦數小的差異那麼大。所以對於很重且瓦數又小的車友來說，選擇爬坡車會讓你比較輕鬆，而瓦數大的車友就盡量選空力車，然後從材料上去降低重量，而不是從高框換成低框，這樣才能發威出你的實力，&#xA;圖四：新舊 TEAMMACHINE SLR 爬武嶺差異 註冊並訂閱網站使用表現預估功能 路段表現預估</description>
     </item>
     <item>
-      <title>新 S5 與 R5 的改變 與 Y1RS 和 V5RS 的差異 爬坡會差多少</title>
+      <title>新 S5 與 R5 的改變 與 Y1RS 和 V5RS 的差異 S5 與 R5 爬坡會差多少</title>
       <link>https://jrphy.github.io/post/s5_r5_v5rs_y1rs/</link>
       <pubDate>Fri, 08 Aug 2025 08:20:24 +0800</pubDate>
       <guid>https://jrphy.github.io/post/s5_r5_v5rs_y1rs/</guid>
